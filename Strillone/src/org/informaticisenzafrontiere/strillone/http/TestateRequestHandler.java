@@ -29,7 +29,8 @@ public class TestateRequestHandler extends RequestHandler {
 
 	@Override
 	protected String getURL() {
-		return "http://www.walks.to/strillone/feeds/testate.php";
+		return "http://192.168.1.132/strillone/feeds/testate.php";
+		//return "http://www.walks.to/strillone/feeds/testate.php";
 	}
 
 	@Override

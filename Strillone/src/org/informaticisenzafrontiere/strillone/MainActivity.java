@@ -1,6 +1,8 @@
 package org.informaticisenzafrontiere.strillone;
 
 import java.io.IOException;
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.text.SimpleDateFormat;
 import java.util.HashMap;
 import java.util.LinkedList;
@@ -54,6 +56,7 @@ public class MainActivity extends Activity implements IMainActivity, OnInitListe
 	private StrilloneButton lowerRightButton;
 	private StrilloneProgressDialog progressDialog;
 	private PowerManager.WakeLock wakeLock = null;
+	private MediaPlayer mp;;
 	
 	private Testate testate;
 	private Giornale giornale;
@@ -97,6 +100,7 @@ public class MainActivity extends Activity implements IMainActivity, OnInitListe
         this.upperRightButton = getUpperRightButton();
         this.lowerLeftButton = getLowerLeftButton();
         this.lowerRightButton = getLowerRightButton();
+        this.mp= new MediaPlayer();
         
         this.upperLeftButton.setOnLongClickListener(new View.OnLongClickListener() {
 			
@@ -263,6 +267,7 @@ public class MainActivity extends Activity implements IMainActivity, OnInitListe
 //	}
 
 	public void performUpperLeftAction(View v) {
+		mp.stop();
     	if (this.textToSpeech.isSpeaking()) {
     		// Se è un testo "splitted" perché troppo lungo, svuota
     		// la code dei messaggi in modo che allo stop non venga
@@ -302,6 +307,7 @@ public class MainActivity extends Activity implements IMainActivity, OnInitListe
     }
     
     public void performLowerLeftAction(View v) {
+    	mp.stop();
     	switch (this.navigationLevel) {
 			case TESTATE:
 				if (this.iTestata >= 0) {
@@ -337,7 +343,18 @@ public class MainActivity extends Activity implements IMainActivity, OnInitListe
 		    		Articolo articolo = sezione.getArticoli().get(iArticolo);
 		    		
 		    		if (articolo.getTesto().length() <= Configuration.SENTENCE_MAX_LENGTH) {
+		    			try {
+		    			  URL url = new URL(articolo.getTesto());
+		    			  mp = new MediaPlayer();
+		    			  mp.setDataSource(articolo.getTesto());
+		    			  mp.prepare();
+		    			  mp.start();
+		    			} catch (Exception e) {
+		    			  
 		    			this.textToSpeech.speak(articolo.getTesto(), TextToSpeech.QUEUE_FLUSH, null);
+		    			}
+		    			
+		    			
 		    		} else {
 		    			if (Configuration.DEBUGGABLE) Log.d(TAG, "Testo troppo lungo, splitting...");
 		    			this.sentences = this.mainPresenter.splitString(articolo.getTesto(), Configuration.SENTENCE_MAX_LENGTH);
@@ -358,6 +375,7 @@ public class MainActivity extends Activity implements IMainActivity, OnInitListe
     }
     
     public void performUpperRightAction(View v) {
+    	mp.stop();
     	switch (this.navigationLevel) {
 			case TESTATE:
 				if (this.lowerEndTestate) {
@@ -455,7 +473,8 @@ public class MainActivity extends Activity implements IMainActivity, OnInitListe
     	
     }
     
-    public void performLowerRightAction(View v) {  	
+    public void performLowerRightAction(View v) {
+    	mp.stop();
     	switch (this.navigationLevel) {
 			case TESTATE:
 				if (this.upperEndTestate) {
