@@ -16,6 +16,7 @@ import org.apache.http.NameValuePair;
 import org.apache.http.client.ClientProtocolException;
 import org.apache.http.client.HttpClient;
 import org.apache.http.client.entity.UrlEncodedFormEntity;
+import org.apache.http.client.methods.HttpGet;
 import org.apache.http.client.methods.HttpPost;
 import org.apache.http.conn.scheme.PlainSocketFactory;
 import org.apache.http.conn.scheme.Scheme;
@@ -71,6 +72,8 @@ public class HttpHandler extends AsyncTask<RequestParameters, Void, String> {
 				String port = matcher.group(4);
 				
 				HttpPost httpPost = new HttpPost(url);
+			HttpGet httpGet =new HttpGet(url);
+			
 				httpPost.setEntity(new UrlEncodedFormEntity(nameValuePairs));
 				
 				// Crea la stringa dello user agent.
@@ -107,8 +110,8 @@ public class HttpHandler extends AsyncTask<RequestParameters, Void, String> {
 				
 				// Esegui la richiesta HTTP.
 				HttpClient httpClient = new DefaultHttpClient(manager, params);
-				HttpResponse httpResponse = httpClient.execute(httpPost);
-				
+				//HttpResponse httpResponse = httpClient.execute(httpPost);
+				HttpResponse httpResponse = httpClient.execute(httpGet);
 				// Leggi la risposta.
 				if (httpResponse.getStatusLine().getStatusCode() == 200) {
 					response = EntityUtils.toString(httpResponse.getEntity());
