@@ -21,16 +21,21 @@ using Windows.Foundation;
 using Microsoft.Phone.Net.NetworkInformation;
 
 using strillone.Model;
+using strillone.Presenter;
 
 using System.Resources;
 using System.Threading;
 using System.Windows;
+using System.Windows.Controls;
+using Microsoft.Phone.BackgroundAudio;
+using System.Windows.Media;
+using Silverlight.Media;
 
 // http://stackoverflow.com/questions/16726362/reading-node-info-using-xdocument-windows-phone 
 
 namespace strillone.Presenter
 {
-    public class MainPresenter : IMainPresenter
+    public class MainPresenter :  IMainPresenter
     {
         private MainViewData _viewModel;
         private IMainView _view;
@@ -69,7 +74,8 @@ namespace strillone.Presenter
 
 
         private String mainURL = "http://www.walks.to/strillonews/newspapers";
-       
+        //private String mainURL = "http://192.168.1.132/strillonews/newspapers";
+
 
         // Get e Set su CurrentNavigation e CurrentNavigationIndex
         public String getCurrentNavigation()
@@ -180,9 +186,11 @@ namespace strillone.Presenter
         // navigazione tasto dex-sopra
         public void navigatePrev()
         {
-            String prepend = strillone.Resources.AppResources.SuggestionBtnPrecedente + ". ";
+           // String prepend = strillone.Resources.AppResources.SuggestionBtnPrecedente + ", ";
+            String prepend = " ";
             String stringToRead = "";
-
+            mp.streamSoundShoutcast.Pause();
+            mp.streamSound.Pause();
             //funzionalità utili per la navigazione
             if (this.disableAll)
             {
@@ -291,9 +299,11 @@ namespace strillone.Presenter
         // navigazione tasto dex-sotto
         public void navigateNext()
         {
-            String prepend = strillone.Resources.AppResources.SuggestionBtnSuccessivo + ". ";
+            //String prepend = strillone.Resources.AppResources.SuggestionBtnSuccessivo + ", ";
+            String prepend = " ";
             String stringToRead = "";
-
+            mp.streamSoundShoutcast.Pause();
+            mp.streamSound.Pause();
             if (this.CurrentNavigation == "testo")
             {
                 this.CurrentNavigation = "articoli";
@@ -380,8 +390,12 @@ namespace strillone.Presenter
         // navigazione tasto sin-sotto
         public async void navigateEnter()
         {
-            String prepend = strillone.Resources.AppResources.SuggestionBtnEntra + ". ";
+            //String prepend = strillone.Resources.AppResources.SuggestionBtnEntra + ", ";
+            String prepend = " ";
             String stringToRead = "";
+            Boolean b = false;
+            mp.streamSoundShoutcast.Pause();
+            mp.streamSound.Pause();
             this.mp.tbox.Text = "Lettura " + "\"" + this.currT.getName() + "...\"";
             this.mp.progressBar1.Visibility = System.Windows.Visibility.Visible;
 
@@ -454,10 +468,33 @@ namespace strillone.Presenter
                 case "articoli":
                     this.setCurrentNavigation("testo");
                     stringToRead = this.currA.getBody();
+                    try
+                    {
+                       Uri u=new Uri(stringToRead, UriKind.Absolute);
+                        
+                        mp.streamSound.Source = new Uri(stringToRead, UriKind.Absolute);
+                        mp.streamSound.Play();
+                        ShoutcastMediaStreamSource source = new ShoutcastMediaStreamSource(new Uri(stringToRead, UriKind.Absolute));
+                       
+                        mp.streamSoundShoutcast.SetSource(source);
+                       
+                        mp.streamSoundShoutcast.Play();
+                        
+                       
+                        b = true;
+                    }
+                    catch (Exception e) { }
+                    
                     break;
             }
-
-            this.ttsRead(prepend + stringToRead);
+            if(!b)
+            {
+                this.ttsRead(prepend + stringToRead);
+            }
+            else
+            {
+                b = false;
+            }
             this.navigationEnabled = false;
         }
 
@@ -465,13 +502,15 @@ namespace strillone.Presenter
         // se forziamo la chiamata navigateExit(true) il tts non parla
         public void navigateExit(bool forced=false)
         {
-            String prepend = strillone.Resources.AppResources.SuggestionBtnSali + ". ";
+            //String prepend = strillone.Resources.AppResources.SuggestionBtnSali + ", ";
+            String prepend = " ";
             String stringToRead = "";
 
             this.CurrentNavigationIndex = -1;
             this.isFirstElement = false;
             this.isLastElement = false;
-
+            mp.streamSoundShoutcast.Pause();
+            mp.streamSound.Pause();
             //funzionalità utili per la navigazione
             if (this.disableAll) 
             {

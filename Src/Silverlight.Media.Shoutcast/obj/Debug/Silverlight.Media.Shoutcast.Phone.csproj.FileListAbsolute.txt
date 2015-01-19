@@ -1,0 +1,5 @@
+C:\Users\Francesco\Desktop\Src\Silverlight.Media.Shoutcast\Bin\Debug\Silverlight.Media.Phone.xml
+C:\Users\Francesco\Desktop\Src\Silverlight.Media.Shoutcast\Bin\Debug\Silverlight.Media.Phone.dll
+C:\Users\Francesco\Desktop\Src\Silverlight.Media.Shoutcast\Bin\Debug\Silverlight.Media.Phone.pdb
+C:\Users\Francesco\Desktop\Src\Silverlight.Media.Shoutcast\obj\Debug\Silverlight.Media.Phone.dll
+C:\Users\Francesco\Desktop\Src\Silverlight.Media.Shoutcast\obj\Debug\Silverlight.Media.Phone.pdb
