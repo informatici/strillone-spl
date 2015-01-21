@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<giornale>
+  <lingua>it</lingua>
+  <testata>Radio Online</testata>
+  <edizione>2014-11-01</edizione>
+    
+  <sezione>
+    <nome>Radio inserite manualmente</nome>
+    <articolo>
+        <titolo><![CDATA[pat metheny]]></titolo>
+        <testo><![CDATA[http://216.235.91.36/play?s=cimg&d=LIVE365&r=0&membername=&session=1417135465-119499&AuthType=NORMAL&ff=15&app_id=live365%3AMozilla5.0Wi&SaneID=93.43.117.41-14171326605902213295601&rnd=0.643953560385853]]></testo>
+    </articolo>
+    <articolo>
+        <titolo><![CDATA[sbagliata a posta]]></titolo>
+        <testo><![CDATA[http://www.aa.it]]></testo>
+    </articolo>
+  </sezione>
+  
+</giornale>
+
+
