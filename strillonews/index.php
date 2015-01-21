@@ -8,6 +8,7 @@ $KEY_GO_FASANO = 'go_fasano';
 $KEY_FAVOLE_E_RACCONTI = 'favole_racconti';
 $KEY_TEST_INGLESE = 'test_inglese';
 $KEY_TEST_PORTOGHESE = 'test_portoghese';
+$KEY_RADIO_ONLINE = 'radio';
 
 $app = new \Slim\Slim();
 $app->response->headers->set('Content-Type', 'text/xml');
@@ -31,14 +32,26 @@ function create_newspaper($doc, $lingua, $nome, $edizione, $resource, $beta = fa
     return $newspaper;
 }
 
+function create_radio() {
+    $doc = new DOMDocument('1.0', 'UTF-8');
+    $radio = $doc->createElement('giornale');
+    
+   // $radio->appendChild(create_stazione($doc,));
+
+    return $newspaper;
+}
+
+
+
 function get_newspapers() {
-    global $KEY_REPUBBLICA_IT, $KEY_GO_BARI, $KEY_GO_FASANO, $KEY_FAVOLE_E_RACCONTI, $KEY_TEST_INGLESE, $KEY_TEST_PORTOGHESE;
+    global $KEY_REPUBBLICA_IT, $KEY_GO_BARI, $KEY_GO_FASANO, $KEY_FAVOLE_E_RACCONTI, $KEY_TEST_INGLESE, $KEY_TEST_PORTOGHESE,$KEY_RADIO_ONLINE;
 
     $today = date('Y-m-d');
     $doc = new DOMDocument('1.0', 'UTF-8');
     $testate = $doc->createElement('testate');
 
     $testate->appendChild(create_newspaper($doc, 'it', 'repubblica punto it', $today, $KEY_REPUBBLICA_IT));
+    $testate->appendChild(create_newspaper($doc, 'it', 'radio online', $today, $KEY_RADIO_ONLINE));
     $testate->appendChild(create_newspaper($doc, 'it', 'go bari', $today, $KEY_GO_BARI));
     $testate->appendChild(create_newspaper($doc, 'it', 'go fasano', $today, $KEY_GO_FASANO));
     $testate->appendChild(create_newspaper($doc, 'it', 'favole e racconti', $today, $KEY_FAVOLE_E_RACCONTI));

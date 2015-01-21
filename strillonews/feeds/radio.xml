@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<giornale>
+  <lingua>it</lingua>
+  <testata>Radio Online</testata>
+  <edizione>2014-11-01</edizione>
+  
+  <sezione>
+    <nome>Radio prova</nome>
+    <articolo>
+        <titolo><![CDATA[prova 1]]></titolo>
+        <testo><![CDATA[http://traffic.libsyn.com/wpradio/WPRadio_29.mp3]]></testo>
+    </articolo>
+    
+    <articolo>
+        <titolo><![CDATA[prova 2]]></titolo>
+        <testo><![CDATA[http://shoutcast.unitedradio.it:1215/listen.pls]]></testo>
+    </articolo>
+  </sezione>
+  <sezione>
+    <nome>Radio inserite manualmente</nome>
+    <articolo>
+        <titolo><![CDATA[pat metheny]]></titolo>
+        <testo><![CDATA[http://216.235.91.36/play?s=cimg&d=LIVE365&r=0&membername=&session=1417135465-119499&AuthType=NORMAL&ff=15&app_id=live365%3AMozilla5.0Wi&SaneID=93.43.117.41-14171326605902213295601&rnd=0.643953560385853]]></testo>
+    </articolo>
+  </sezione>
+  <sezione>
+    <nome>Radio Italiane</nome>
+    <articolo>
+        <titolo><![CDATA[105 Radio]]></titolo>
+        <testo><![CDATA[http://shoutcast.unitedradio.it:1101/;stream.mp3]]></testo>
+    </articolo>
+    <articolo>
+        <titolo><![CDATA[RMC]]></titolo>
+        <testo><![CDATA[http://shoutcast.unitedradio.it:1103]]></testo>
+    </articolo>
+    <articolo>
+        <titolo><![CDATA[105 Classics]]></titolo>
+        <testo><![CDATA[http://shoutcast.unitedradio.it:1105]]></testo>
+    </articolo>
+    <articolo>
+        <titolo><![CDATA[RMC 2]]></titolo>
+        <testo><![CDATA[http://shoutcast.unitedradio.it:1107]]></testo>
+    </articolo>
+    <articolo>
+        <titolo><![CDATA[105 Hits]]></titolo>
+        <testo><![CDATA[http://shoutcast.unitedradio.it:1109]]></testo>
+    </articolo>
+    <articolo>
+        <titolo><![CDATA[RMC Great Artists]]></titolo>
+        <testo><![CDATA[http://shoutcast.unitedradio.it:1111]]></testo>
+    </articolo>
+    <articolo>
+        <titolo><![CDATA[105 HipHop]]></titolo>
+        <testo><![CDATA[http://shoutcast.unitedradio.it:1113]]></testo>
+    </articolo>
+    <articolo>
+        <titolo><![CDATA[RMC Monte Carlo Nights Story]]></titolo>
+        <testo><![CDATA[http://shoutcast.unitedradio.it:1115]]></testo>
+    </articolo>
+    <articolo>
+        <titolo><![CDATA[RMC NEW CLASSICS]]></titolo>
+        <testo><![CDATA[http://shoutcast.unitedradio.it:1117]]></testo>
+    </articolo>
+    <articolo>
+        <titolo><![CDATA[VIRGIN ROCK 70]]></titolo>
+        <testo><![CDATA[http://shoutcast.unitedradio.it:1119]]></testo>
+    </articolo>
+    <articolo>
+        <titolo><![CDATA[RMC Love Songs]]></titolo>
+        <testo><![CDATA[http://shoutcast.unitedradio.it:1121]]></testo>
+    </articolo>
+    <articolo>
+        <titolo><![CDATA[COLDPLAY]]></titolo>
+        <testo><![CDATA[http://shoutcast.unitedradio.it:1201]]></testo>
+    </articolo>
+    <articolo>
+        <titolo><![CDATA[105 House]]></titolo>
+        <testo><![CDATA[http://shoutcast.unitedradio.it:1203]]></testo>
+    </articolo>
+    <articolo>
+        <titolo><![CDATA[T FERRO]]></titolo>
+        <testo><![CDATA[http://shoutcast.unitedradio.it:1207]]></testo>
+    </articolo>
+    <articolo>
+        <titolo><![CDATA[105 Latino]]></titolo>
+        <testo><![CDATA[http://shoutcast.unitedradio.it:1209]]></testo>
+    </articolo>
+    <articolo>
+        <titolo><![CDATA[RMC Italia]]></titolo>
+        <testo><![CDATA[http://shoutcast.unitedradio.it:1211]]></testo>
+    </articolo>
+    <articolo>
+        <titolo><![CDATA[MS ROLLING STONE]]></titolo>
+        <testo><![CDATA[http://shoutcast.unitedradio.it:1213]]></testo>
+    </articolo>
+    <articolo>
+        <titolo><![CDATA[105 Miami]]></titolo>
+        <testo><![CDATA[http://shoutcast.unitedradio.it:1215]]></testo>
+    </articolo>
+    <articolo>
+        <titolo><![CDATA[LITFIBA]]></titolo>
+        <testo><![CDATA[http://shoutcast.unitedradio.it:1217]]></testo>
+    </articolo>
+  </sezione>
+</giornale>
+
+
+
+
+<!--
+http://shoutcast.unitedradio.it:1221 105CLT
+http://shoutcast.unitedradio.it:1225 GIORGIA
+http://shoutcast.unitedradio.it:1229 KAYKAY
+http://shoutcast.unitedradio.it:1231 PINODANIELE
+http://shoutcast.unitedradio.it:1235 JOVANOTTI
+http://shoutcast.unitedradio.it:1237 105ZUCCHERO
+http://shoutcast.unitedradio.it:1259 BUDDHABAR
+http://shoutcast.unitedradio.it:1263 1052KMORE
+http://shoutcast.unitedradio.it:1267 ST046
+http://shoutcast.unitedradio.it:1301 VirginRadio
+http://shoutcast.unitedradio.it:1305 MSLIGABUE
+http://shoutcast.unitedradio.it:1307 VirginRockClassic
+http://shoutcast.unitedradio.it:1309 VirginHardRock
+http://shoutcast.unitedradio.it:1311 RMCMarine
+http://shoutcast.unitedradio.it:1313 105Story
+http://shoutcast.unitedradio.it:1315 Virgin PalestrE
+http://shoutcast.unitedradio.it:1401 RMC80
+http://shoutcast.unitedradio.it:1403 RMC90
+http://shoutcast.unitedradio.it:1405 RadioBAU
+http://shoutcast.unitedradio.it:1409 105Vasco
+http://shoutcast.unitedradio.it:1411 VIRGINROCK80
+http://shoutcast.unitedradio.it:1413 ZOORADIO
+http://shoutcast.unitedradio.it:1511 MINA*/-->
