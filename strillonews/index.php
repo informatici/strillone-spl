@@ -2,6 +2,7 @@
 
 require 'vendor/autoload.php';
 
+
 $KEY_REPUBBLICA_IT = 'repubblicait';
 $KEY_GO_BARI = 'go_bari';
 $KEY_GO_FASANO = 'go_fasano';
