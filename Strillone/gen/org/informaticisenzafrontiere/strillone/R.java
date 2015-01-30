@@ -48,6 +48,7 @@ public final class R {
     }
     public static final class string {
         public static final int app_name=0x7f050000;
+        public static final int buffering=0x7f050024;
         public static final int cdlowerleft=0x7f05001c;
         public static final int cdlowerright=0x7f05001d;
         public static final int cdupperleft=0x7f05001a;

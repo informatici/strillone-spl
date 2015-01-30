@@ -267,43 +267,47 @@ public class MainActivity extends Activity implements IMainActivity, OnInitListe
 //	}
 
 	public void performUpperLeftAction(View v) {
-		mp.stop();
-    	if (this.textToSpeech.isSpeaking()) {
-    		// Se è un testo "splitted" perché troppo lungo, svuota
-    		// la code dei messaggi in modo che allo stop non venga
-    		// riprodotto il messaggio successivo.
-    		if (this.sentences != null)
-    			this.sentences.clear();
-    		
-    		this.textToSpeech.stop();
-    	} else {
-    		if (reloadHeaders) {
-    			startProgressDialog(getString(R.string.connecting_headers));
-    	        this.mainPresenter.downloadHeaders();
-    		} else {
-	    		switch (this.navigationLevel) {
-					case TESTATE:
-						resetNavigation();
-			    		this.textToSpeech.speak(getResources().getString(R.string.nav_home), TextToSpeech.QUEUE_FLUSH, null);
-						break;
-					case SEZIONI:
-						// Passa alla navigazione delle testate.
-						this.navigationLevel = NavigationLevel.TESTATE;
-						this.iSezione = -1;
-						this.textToSpeech.speak(getResources().getString(R.string.nav_go_testate), TextToSpeech.QUEUE_FLUSH, null);
-						break;
-					case ARTICOLI:
-						// Passa alla navigazione delle sezioni.
-						this.navigationLevel = NavigationLevel.SEZIONI;
-						this.iArticolo = -1;
-						this.textToSpeech.speak(getResources().getString(R.string.nav_go_sezioni), TextToSpeech.QUEUE_FLUSH, null);
-						break;
-					default:
-						break;
-				}
-    		}
-    		
-    	}
+		
+		if(!mp.isPlaying()){
+	    	if (this.textToSpeech.isSpeaking()) {
+	    		// Se è un testo "splitted" perché troppo lungo, svuota
+	    		// la code dei messaggi in modo che allo stop non venga
+	    		// riprodotto il messaggio successivo.
+	    		if (this.sentences != null)
+	    			this.sentences.clear();
+	    		
+	    		this.textToSpeech.stop();
+	    	} else {
+	    		if (reloadHeaders) {
+	    			startProgressDialog(getString(R.string.connecting_headers));
+	    	        this.mainPresenter.downloadHeaders();
+	    		} else {
+		    		switch (this.navigationLevel) {
+						case TESTATE:
+							resetNavigation();
+				    		this.textToSpeech.speak(getResources().getString(R.string.nav_home), TextToSpeech.QUEUE_FLUSH, null);
+							break;
+						case SEZIONI:
+							// Passa alla navigazione delle testate.
+							this.navigationLevel = NavigationLevel.TESTATE;
+							this.iSezione = -1;
+							this.textToSpeech.speak(getResources().getString(R.string.nav_go_testate), TextToSpeech.QUEUE_FLUSH, null);
+							break;
+						case ARTICOLI:
+							// Passa alla navigazione delle sezioni.
+							this.navigationLevel = NavigationLevel.SEZIONI;
+							this.iArticolo = -1;
+							this.textToSpeech.speak(getResources().getString(R.string.nav_go_sezioni), TextToSpeech.QUEUE_FLUSH, null);
+							break;
+						default:
+							break;
+					}
+	    		}
+	    		
+	    	}
+		}else
+			mp.stop();
+		
     }
     
     public void performLowerLeftAction(View v) {
@@ -332,7 +336,6 @@ public class MainActivity extends Activity implements IMainActivity, OnInitListe
 		    		sbMessaggio.append(getResources().getString(R.string.nav_enter_section));
 		    		sbMessaggio.append(sezione.getNome());
 		    		this.navigationLevel = NavigationLevel.ARTICOLI;
-		    		
 		    		this.textToSpeech.speak(sbMessaggio.toString(), TextToSpeech.QUEUE_FLUSH, null);
 	    		}
 				break;
@@ -343,18 +346,20 @@ public class MainActivity extends Activity implements IMainActivity, OnInitListe
 		    		Articolo articolo = sezione.getArticoli().get(iArticolo);
 		    		
 		    		if (articolo.getTesto().length() <= Configuration.SENTENCE_MAX_LENGTH) {
-		    			try {
-		    			  URL url = new URL(articolo.getTesto());
-		    			  mp = new MediaPlayer();
-		    			  mp.setDataSource(articolo.getTesto());
-		    			  mp.prepare();
-		    			  mp.start();
-		    			} catch (Exception e) {
-		    			  
-		    			this.textToSpeech.speak(articolo.getTesto(), TextToSpeech.QUEUE_FLUSH, null);
-		    			}
-		    			
-		    			
+		    			//Se l'articolo appartiene alla testata delle radio play
+		    			if(this.giornale.getTestata().compareTo("Radio Online")==0){
+		    				try {
+		    					URL url = new URL(articolo.getTesto());
+		    					this.textToSpeech.speak(getResources().getString(R.string.buffering), TextToSpeech.QUEUE_FLUSH, null);
+		    					mp = new MediaPlayer();
+		    					mp.setDataSource(articolo.getTesto());
+		    					mp.prepare();
+		    					mp.start();
+		    				} catch (Exception e) {
+		    					this.textToSpeech.speak(articolo.getTesto(), TextToSpeech.QUEUE_FLUSH, null);
+		    				}
+		    			}else
+		    				this.textToSpeech.speak(articolo.getTesto(), TextToSpeech.QUEUE_FLUSH, null);
 		    		} else {
 		    			if (Configuration.DEBUGGABLE) Log.d(TAG, "Testo troppo lungo, splitting...");
 		    			this.sentences = this.mainPresenter.splitString(articolo.getTesto(), Configuration.SENTENCE_MAX_LENGTH);
@@ -371,7 +376,6 @@ public class MainActivity extends Activity implements IMainActivity, OnInitListe
 			default:
 				break;
 		}
-    	
     }
     
     public void performUpperRightAction(View v) {
