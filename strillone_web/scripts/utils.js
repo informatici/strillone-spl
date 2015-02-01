@@ -138,7 +138,8 @@ $(document).ready(function() {
 	});
 	
     jQuery.getTestata({
-        url: './newspapers',
+	//url: './newspapers',
+        url: 'http://localhost/strillonewsb/newspapers',
         success: function(feed) {
 			testata['testate'] = feed.testate;
         }
@@ -197,7 +198,7 @@ var audio ;
 				// http://www.bresciaonline.it/or4/or?uid=GDBcarta.main.view&edizione=2013-03-04&id=6TXUTR75
 
 				jQuery.getGiornale({
-					url: './newspapers/' + testata['testate'][testata_position]['resource'],
+					url: 'http://localhost/strillonewsb/newspapers/' + testata['testate'][testata_position]['resource'],
 					success: function(feed) {
 						giornale['edizione'] = feed.edizione;
 						giornale['sezioni'] = feed.sezioni;

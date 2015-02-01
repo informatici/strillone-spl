@@ -76,7 +76,7 @@ $newDom->appendChild($root);
 //$urlsave = './newDOM.xml';
 //$newDom->saveXML();
 
-// E BASTA CO STO ALGORITMO!!
+
 
 header('Content-Type: text/xml; charset=UTF-8');
 echo $newDom->saveXML();

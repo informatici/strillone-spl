@@ -52,7 +52,7 @@ ini_set('max_execution_time', 3000);
 		else
 		{
 		    echo $child->titolo;
-		    echo "_________Funziona";
+		    //echo "_________Funziona";
 		}
 	    }
 	    echo " \r\n ";
@@ -68,8 +68,30 @@ function stringEndsWith($whole, $end)
     return (strpos($whole, $end, strlen($whole) - strlen($end)) !== false);
 }
 
+
+
+class ChildThread extends Thread {
+    public $data;
+    private $porta;
+    
+    public function __construct($por)
+    {
+	$this->porta=$por;
+    }
+
+    public function run() {
+      $headers = @get_headers('http://shoutcast.unitedradio.it:'.$this->porta, 6);
+	$this->data = ' ';
+	if ($headers[0] == 'ICY 200 OK') {
+	    $this->data =$headers['icy-name'];
+	}     
+    }
+}
+
+
 function radioAutomatiche($file)
 {
+       
     $doc = new DOMDocument( );
     $ele = $doc->createElement( 'giornale' );
     $root=$doc->appendChild( $ele );
@@ -82,21 +104,38 @@ function radioAutomatiche($file)
     
     echo "______________________RICERCA DELLE RADIO IN AUTOMATICO______________________\r\n";
     
+    $b=false;
+    for ($i = 1100; $i < 1600; $i++){//1600
+	$thread[$i-1100] = new ChildThread($i);
+	$thread[$i-1100]->start();
+	$connessioni=50;
+	if ($i % $connessioni ==0){
+	 if ($b){   
+		echo " Scansione porta n#: ".$i."\r\n ";
+		for ($a = $i-$connessioni; $a <= $i; $a++){
+		    $thread[$a-1100]->join();
+		}
+	    }
+	$b=true;
+	}
+    }
+    for ($a ; $a <1600; $a++){
+	    $thread[$a-1100]->join();
+	}
     
-    for ($i = 1100; $i <= 1600; $i++){//1600
-	$headers = @get_headers('http://shoutcast.unitedradio.it:'.$i, 6);
-	if ($headers[0] == 'ICY 200 OK') {
-	    
+
+    for ($i = 1100; $i < 1600; $i++){
+	
+	if ($thread[$i-1100]->data != ' ') {
 	    $articolo=$doc->createElement( 'articolo' );
 	    
 	    $titolo=$doc->createElement( 'titolo' );
-	    if($headers['icy-name']){
-		$titolo->nodeValue = $headers['icy-name'];
+	    if($thread[$i-1100]->data){
+		$titolo->nodeValue = $thread[$i-1100]->data;
 	    }
 	    else{
 		$titolo->nodeValue = "Anonima";
 	    }
-	    echo $headers['icy-name']." porta n#: ".$i."\r\n";
 	    $testo=$doc->createElement( 'testo' );
 	    $testo->nodeValue = 'http://shoutcast.unitedradio.it:'.$i;
 	    $articolo->appendChild($titolo);
@@ -104,15 +143,12 @@ function radioAutomatiche($file)
 	    $root->appendChild( $articolo );
 	    
 	}
-	
     }
     echo " \r\n ";
     echo "_______________________________SALVATAGGIO_________________________________\r\n";
-    
-   
     $fh = fopen( $file, 'w') or die ( "can't open file $fileout" );
     fwrite( $fh, $doc->saveXML());
     fclose( $fh );
 }
-    
+   
 ?>
