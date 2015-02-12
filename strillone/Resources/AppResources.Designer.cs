@@ -88,6 +88,15 @@ namespace strillone.Resources {
         }
         
         /// <summary>
+        ///   Cerca una stringa localizzata simile a Caricamento in corso.
+        /// </summary>
+        public static string Buffering {
+            get {
+                return ResourceManager.GetString("Buffering", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Cerca una stringa localizzata simile a Edizione del.
         /// </summary>
         public static string EditionStamp {

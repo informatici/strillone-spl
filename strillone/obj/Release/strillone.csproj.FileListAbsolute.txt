@@ -54,33 +54,5 @@ C:\Users\Francesco\Desktop\strillone-spl-WindowsPhone-StreamingRadios\strillone\
 C:\Users\Francesco\Desktop\strillone-spl-WindowsPhone-StreamingRadios\strillone\Bin\Release\Silverlight.Media.Phone.pdb
 C:\Users\Francesco\Desktop\strillone-spl-WindowsPhone-StreamingRadios\strillone\Bin\Release\Silverlight.Media.Phone.xml
 C:\Users\Francesco\Desktop\strillone-spl-WindowsPhone-StreamingRadios\strillone\obj\Release\strillone.csprojResolveAssemblyReference.cache
-C:\Users\Francesco\Desktop\strillone android\strillone-spl\strillone\Bin\Release\strillone.dll
-C:\Users\Francesco\Desktop\strillone android\strillone-spl\strillone\Bin\Release\strillone.pdb
-C:\Users\Francesco\Desktop\strillone android\strillone-spl\strillone\Bin\Release\en-US\strillone.resources.dll
-C:\Users\Francesco\Desktop\strillone android\strillone-spl\strillone\Bin\Release\en\strillone.resources.dll
-C:\Users\Francesco\Desktop\strillone android\strillone-spl\strillone\Bin\Release\fr\strillone.resources.dll
-C:\Users\Francesco\Desktop\strillone android\strillone-spl\strillone\Bin\Release\pt\strillone.resources.dll
-C:\Users\Francesco\Desktop\strillone android\strillone-spl\strillone\Bin\Release\AppManifest.xaml
-C:\Users\Francesco\Desktop\strillone android\strillone-spl\strillone\Bin\Release\Properties\WMAppManifest.xml
-C:\Users\Francesco\Desktop\strillone android\strillone-spl\strillone\Bin\Release\strillone_Release_AnyCPU.xap
-C:\Users\Francesco\Desktop\strillone android\strillone-spl\strillone\Bin\Release\Silverlight.Media.Phone.dll
-C:\Users\Francesco\Desktop\strillone android\strillone-spl\strillone\Bin\Release\Silverlight.Media.Phone.pdb
-C:\Users\Francesco\Desktop\strillone android\strillone-spl\strillone\Bin\Release\Silverlight.Media.Phone.xml
-C:\Users\Francesco\Desktop\strillone android\strillone-spl\strillone\obj\Release\strillone.csprojResolveAssemblyReference.cache
-C:\Users\Francesco\Desktop\strillone android\strillone-spl\strillone\obj\Release\App.g.cs
-C:\Users\Francesco\Desktop\strillone android\strillone-spl\strillone\obj\Release\View\MainPage.g.cs
-C:\Users\Francesco\Desktop\strillone android\strillone-spl\strillone\obj\Release\View\ExtendedSplashScreen.g.cs
-C:\Users\Francesco\Desktop\strillone android\strillone-spl\strillone\obj\Release\strillone.g.resources
-C:\Users\Francesco\Desktop\strillone android\strillone-spl\strillone\obj\Release\strillone.Resources.AppResources.resources
-C:\Users\Francesco\Desktop\strillone android\strillone-spl\strillone\obj\Release\strillone.Resources.AppResources.en-US.resources
-C:\Users\Francesco\Desktop\strillone android\strillone-spl\strillone\obj\Release\strillone.Resources.AppResources.en.resources
-C:\Users\Francesco\Desktop\strillone android\strillone-spl\strillone\obj\Release\strillone.Resources.AppResources.fr.resources
-C:\Users\Francesco\Desktop\strillone android\strillone-spl\strillone\obj\Release\strillone.Resources.AppResources.pt.resources
-C:\Users\Francesco\Desktop\strillone android\strillone-spl\strillone\obj\Release\strillone.csproj.GenerateResource.Cache
-C:\Users\Francesco\Desktop\strillone android\strillone-spl\strillone\obj\Release\en-US\strillone.resources.dll
-C:\Users\Francesco\Desktop\strillone android\strillone-spl\strillone\obj\Release\en\strillone.resources.dll
-C:\Users\Francesco\Desktop\strillone android\strillone-spl\strillone\obj\Release\fr\strillone.resources.dll
-C:\Users\Francesco\Desktop\strillone android\strillone-spl\strillone\obj\Release\pt\strillone.resources.dll
-C:\Users\Francesco\Desktop\strillone android\strillone-spl\strillone\obj\Release\strillone.dll
-C:\Users\Francesco\Desktop\strillone android\strillone-spl\strillone\obj\Release\strillone.pdb
-C:\Users\Francesco\Desktop\strillone android\strillone-spl\strillone\obj\Release\XapCacheFile.xml
+C:\Users\Francesco\Desktop\strillone-spl-WindowsPhone-StreamingRadios\strillone\Bin\Release\MyAudioPlaybackAgent.dll
+C:\Users\Francesco\Desktop\strillone-spl-WindowsPhone-StreamingRadios\strillone\Bin\Release\MyAudioPlaybackAgent.pdb

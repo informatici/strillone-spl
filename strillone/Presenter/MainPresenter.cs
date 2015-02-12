@@ -74,7 +74,7 @@ namespace strillone.Presenter
 
 
         private String mainURL = "http://www.walks.to/strillonews/newspapers";
-        //private String mainURL = "http://192.168.1.132/strillonews/newspapers";
+        //private String mainURL = "http://192.168.1.133/strillonews/newspapers";
 
 
         // Get e Set su CurrentNavigation e CurrentNavigationIndex
@@ -190,7 +190,7 @@ namespace strillone.Presenter
             String prepend = " ";
             String stringToRead = "";
             mp.streamSoundShoutcast.Pause();
-            mp.streamSound.Pause();
+            BackgroundAudioPlayer.Instance.Close();
             //funzionalità utili per la navigazione
             if (this.disableAll)
             {
@@ -303,7 +303,8 @@ namespace strillone.Presenter
             String prepend = " ";
             String stringToRead = "";
             mp.streamSoundShoutcast.Pause();
-            mp.streamSound.Pause();
+            BackgroundAudioPlayer.Instance.Close();
+            //BackgroundAudioPlayer.Instance.Stop();
             if (this.CurrentNavigation == "testo")
             {
                 this.CurrentNavigation = "articoli";
@@ -386,8 +387,7 @@ namespace strillone.Presenter
             this.ttsRead(prepend + stringToRead);
         }
 
-
-        // navigazione tasto sin-sotto
+           // navigazione tasto sin-sotto
         public async void navigateEnter()
         {
             //String prepend = strillone.Resources.AppResources.SuggestionBtnEntra + ", ";
@@ -395,7 +395,7 @@ namespace strillone.Presenter
             String stringToRead = "";
             Boolean b = false;
             mp.streamSoundShoutcast.Pause();
-            mp.streamSound.Pause();
+            BackgroundAudioPlayer.Instance.Close();
             this.mp.tbox.Text = "Lettura " + "\"" + this.currT.getName() + "...\"";
             this.mp.progressBar1.Visibility = System.Windows.Visibility.Visible;
 
@@ -472,9 +472,18 @@ namespace strillone.Presenter
                     {
                        Uri u=new Uri(stringToRead, UriKind.Absolute);
                         
-                        mp.streamSound.Source = new Uri(stringToRead, UriKind.Absolute);
-                        mp.streamSound.Play();
+                        
+
+                       AudioTrack _currentAudioTrack = new AudioTrack(new Uri(stringToRead, UriKind.Absolute), this.currA.getTitle(), " ", " ", null, null, EnabledPlayerControls.All);
+
+                       this.ttsRead( strillone.Resources.AppResources.Buffering);
+
+                       BackgroundAudioPlayer.Instance.Track = _currentAudioTrack;
+                       BackgroundAudioPlayer.Instance.Play();
+                        
+                        
                         ShoutcastMediaStreamSource source = new ShoutcastMediaStreamSource(new Uri(stringToRead, UriKind.Absolute));
+
                        
                         mp.streamSoundShoutcast.SetSource(source);
                        
@@ -510,7 +519,7 @@ namespace strillone.Presenter
             this.isFirstElement = false;
             this.isLastElement = false;
             mp.streamSoundShoutcast.Pause();
-            mp.streamSound.Pause();
+            BackgroundAudioPlayer.Instance.Close();
             //funzionalità utili per la navigazione
             if (this.disableAll) 
             {

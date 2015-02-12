@@ -1,0 +1,4 @@
+C:\Users\Francesco\Desktop\strillone-spl-WindowsPhone-StreamingRadios\MyAudioPlaybackAgent\Bin\Debug\MyAudioPlaybackAgent.dll
+C:\Users\Francesco\Desktop\strillone-spl-WindowsPhone-StreamingRadios\MyAudioPlaybackAgent\Bin\Debug\MyAudioPlaybackAgent.pdb
+C:\Users\Francesco\Desktop\strillone-spl-WindowsPhone-StreamingRadios\MyAudioPlaybackAgent\obj\Debug\MyAudioPlaybackAgent.dll
+C:\Users\Francesco\Desktop\strillone-spl-WindowsPhone-StreamingRadios\MyAudioPlaybackAgent\obj\Debug\MyAudioPlaybackAgent.pdb

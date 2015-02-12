@@ -19,6 +19,9 @@
     </Capabilities>
     <Tasks>
       <DefaultTask Name="_default" NavigationPage="View\ExtendedSplashScreen.xaml" />
+      <ExtendedTask Name="BackgroundTask">
+        <BackgroundServiceAgent Specifier="AudioPlayerAgent" Name="MyAudioPlaybackAgent" Source="MyAudioPlaybackAgent" Type="MyAudioPlaybackAgent.AudioPlayer" />
+      </ExtendedTask>
     </Tasks>
     <Tokens>
       <PrimaryToken TokenID="strilloneToken" TaskName="_default">
