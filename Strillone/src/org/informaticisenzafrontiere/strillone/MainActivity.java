@@ -70,10 +70,10 @@ public class MainActivity extends Activity implements IMainActivity, OnInitListe
 	private int maxSezioni;
 	private int maxArticoli;
 	
-	// Stabilisce se ci si trova all'inizio della navigazione delle testate.
+	// Determines whether there is at the beginning of the navigation of newspapers.
 	private boolean lowerEndTestate;
 	
-	// Stabilisce se ci si trova alla fine della navigazione delle testate.
+	// Determines whether there is at the end of the navigation of newspapers.
 	private boolean upperEndTestate;
 	
 	private boolean lowerEndSezioni;
@@ -105,9 +105,9 @@ public class MainActivity extends Activity implements IMainActivity, OnInitListe
         this.upperLeftButton.setOnLongClickListener(new View.OnLongClickListener() {
 			
 			public boolean onLongClick(View v) {
-				// Se è un testo "splitted" perché troppo lungo, svuota
-	    		// la code dei messaggi in modo che allo stop non venga
-	    		// riprodotto il messaggio successivo.
+				// If it is a text "splitted" because too long, 
+				//empty your message queues so that the stop may not 
+				//play the next message.
 	    		if (MainActivity.this.sentences != null)
 	    			MainActivity.this.sentences.clear();
 				
@@ -126,9 +126,9 @@ public class MainActivity extends Activity implements IMainActivity, OnInitListe
         this.lowerLeftButton.setOnLongClickListener(new View.OnLongClickListener() {
 			@Override
 			public boolean onLongClick(View v) {
-				// Se è un testo "splitted" perché troppo lungo, svuota
-	    		// la code dei messaggi in modo che allo stop non venga
-	    		// riprodotto il messaggio successivo.
+				// If it is a text "splitted" because too long, 
+				//empty your message queues so that the stop may not 
+				//play the next message.
 	    		if (MainActivity.this.sentences != null)
 	    			MainActivity.this.sentences.clear();
 				
@@ -143,18 +143,18 @@ public class MainActivity extends Activity implements IMainActivity, OnInitListe
 			
 			@Override
 			public boolean onLongClick(View v) {
-				// Se è un testo "splitted" perché troppo lungo, svuota
-	    		// la code dei messaggi in modo che allo stop non venga
-	    		// riprodotto il messaggio successivo.
+				// If it is a text "splitted" because too long, 
+				//empty your message queues so that the stop may not 
+				//play the next message.
 	    		if (MainActivity.this.sentences != null)
 	    			MainActivity.this.sentences.clear();
 				
 				MainActivity.this.textToSpeech.stop();
 				
-				// Calcola la posizione.
+				// Calculates the position.
 				StringBuffer sbPosizione = new StringBuffer(getString(R.string.pos_current));
 				if (iTestata < 0) {
-					// Non è stata selezionata alcuna testata.
+					// Is not selected any newspaper.
 					sbPosizione.append(getString(R.string.pos_no_header_selected));
 				} else {
 					Testata testata = MainActivity.this.testate.getTestate().get(iTestata);
@@ -165,7 +165,7 @@ public class MainActivity extends Activity implements IMainActivity, OnInitListe
 					sbPosizione.append(". ");
 					
 					if (iSezione < 0) {
-						// Non è stata selezionata alcuna sezione.
+						// Is not selected any section.
 						sbPosizione.append(getString(R.string.pos_no_section_selected));
 					} else {
 						Sezione sezione = MainActivity.this.giornale.getSezioni().get(iSezione);
@@ -203,13 +203,13 @@ public class MainActivity extends Activity implements IMainActivity, OnInitListe
 	protected void onPause() {
 		if (Configuration.DEBUGGABLE) Log.d(TAG, "onPause()");
 		
-		// Se stai leggendo un articolo svuota il buffer delle frasi e ferma il TTS.
+		// If you are reading an article flushes the buffer of the phrases and stops the TTS.
 		if (this.sentences != null) {
 			this.sentences.clear();
 		}
 		this.textToSpeech.stop();
 		
-		// Rilascia il controllo sullo standby.
+		// Release control on standby.
 		this.wakeLock.release();
 		super.onPause();
 	}
@@ -270,9 +270,9 @@ public class MainActivity extends Activity implements IMainActivity, OnInitListe
 		
 		if(!mp.isPlaying()){
 	    	if (this.textToSpeech.isSpeaking()) {
-	    		// Se è un testo "splitted" perché troppo lungo, svuota
-	    		// la code dei messaggi in modo che allo stop non venga
-	    		// riprodotto il messaggio successivo.
+	    		// If it is a text "splitted" because too long, 
+				//empty your message queues so that the stop may not 
+				//play the next message.
 	    		if (this.sentences != null)
 	    			this.sentences.clear();
 	    		
@@ -288,13 +288,13 @@ public class MainActivity extends Activity implements IMainActivity, OnInitListe
 				    		this.textToSpeech.speak(getResources().getString(R.string.nav_home), TextToSpeech.QUEUE_FLUSH, null);
 							break;
 						case SEZIONI:
-							// Passa alla navigazione delle testate.
+							// Skip to navigation of newspapers.
 							this.navigationLevel = NavigationLevel.TESTATE;
 							this.iSezione = -1;
 							this.textToSpeech.speak(getResources().getString(R.string.nav_go_testate), TextToSpeech.QUEUE_FLUSH, null);
 							break;
 						case ARTICOLI:
-							// Passa alla navigazione delle sezioni.
+							// Skip to navigation sections.
 							this.navigationLevel = NavigationLevel.SEZIONI;
 							this.iArticolo = -1;
 							this.textToSpeech.speak(getResources().getString(R.string.nav_go_sezioni), TextToSpeech.QUEUE_FLUSH, null);
@@ -315,7 +315,7 @@ public class MainActivity extends Activity implements IMainActivity, OnInitListe
     	switch (this.navigationLevel) {
 			case TESTATE:
 				if (this.iTestata >= 0) {
-					// Seleziona la testata.
+					//Select your newspaper.
 					startProgressDialog(String.format(getString(R.string.connecting_newspaper), this.testate.getTestate().get(this.iTestata).getNome()));
 					this.mainPresenter.downloadGiornale();
 					
@@ -325,7 +325,7 @@ public class MainActivity extends Activity implements IMainActivity, OnInitListe
 				break;
 			case SEZIONI:
 				if (this.iSezione >= 0) {
-		    		// Entra nella sezione.
+		    		// Enter the section.
 		    		Sezione sezione = this.giornale.getSezioni().get(iSezione);
 		    		this.maxArticoli = sezione.getArticoli().size();
 		    		
@@ -341,12 +341,12 @@ public class MainActivity extends Activity implements IMainActivity, OnInitListe
 				break;
 			case ARTICOLI:
 				if (this.iArticolo >= 0) {
-		    		// Leggi l'articolo.
+		    		//Read the article.
 		    		Sezione sezione = this.giornale.getSezioni().get(iSezione);
 		    		Articolo articolo = sezione.getArticoli().get(iArticolo);
 		    		
 		    		if (articolo.getTesto().length() <= Configuration.SENTENCE_MAX_LENGTH) {
-		    			//Se l'articolo appartiene alla testata delle radio play
+		    			//If the article belongs to the head of the radio, play
 		    			if(this.giornale.getTestata().compareTo("Radio Online")==0){
 		    				try {
 		    					URL url = new URL(articolo.getTesto());
@@ -387,7 +387,7 @@ public class MainActivity extends Activity implements IMainActivity, OnInitListe
 						// 
 						this.textToSpeech.speak(getString(R.string.nav_first_header), TextToSpeech.QUEUE_FLUSH, null);
 					} else {
-						// Caso dell'app appena avviata o resettata.
+						// If the app just started or reset.
 						this.textToSpeech.speak(getString(R.string.nav_use_lower_button_start_navigation_headers), TextToSpeech.QUEUE_FLUSH, null);
 					}
 				} else {
@@ -609,13 +609,13 @@ public class MainActivity extends Activity implements IMainActivity, OnInitListe
 		
 		resetNavigation();
 		
-		// Visualizza i pulsanti.
+		// View buttons.
 		this.upperLeftButton.setVisibility(View.VISIBLE);
         this.upperRightButton.setVisibility(View.VISIBLE);
         this.lowerLeftButton.setVisibility(View.VISIBLE);
         this.lowerRightButton.setVisibility(View.VISIBLE);
 		
-		// Abilita i pulsanti al touch.
+		// Enable buttons to touch.
 		this.upperLeftButton.setClickable(true);
         this.upperRightButton.setClickable(true);
         this.lowerLeftButton.setClickable(true);
@@ -669,10 +669,10 @@ public class MainActivity extends Activity implements IMainActivity, OnInitListe
 	}
 	
 	private void resetNavigation() {
-		// Inizializza il livello di navigazione.
+		// Initializes the navigation level.
 		this.navigationLevel = NavigationLevel.TESTATE;
 				
-		// Imposta gli indici a inizio navigazione.
+		// Sets the indices to start navigation.
 		this.iTestata = -1;
     	this.iSezione = -1;
     	this.iArticolo = -1;

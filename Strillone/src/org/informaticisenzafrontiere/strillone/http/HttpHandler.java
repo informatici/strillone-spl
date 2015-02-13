@@ -54,7 +54,7 @@ public class HttpHandler extends AsyncTask<RequestParameters, Void, String> {
 		if (Configuration.DEBUGGABLE) Log.d(TAG, "Parametri richiesta:");
 		if (Configuration.DEBUGGABLE) Log.d(TAG, requestParameters.toString());
 		
-		// Avvalora i parametri della richiesta.
+		// Validates the request parameters.
 		Map<String, String> parameters = requestParameters.getParameters();
 		Set<String> parameterKeys = parameters.keySet();
 		Iterator<String> iParameterKeys = parameterKeys.iterator();
@@ -86,7 +86,7 @@ public class HttpHandler extends AsyncTask<RequestParameters, Void, String> {
 //				sbUserAgent.append(" ");
 //				sbUserAgent.append(System.getProperty("os.version"));
 				
-				// Imposta i parametri della richiesta.
+				//Set the parameters of the request.
 				HttpParams params = new BasicHttpParams();
 				HttpProtocolParams.setVersion(params, HttpVersion.HTTP_1_1);
 				HttpProtocolParams.setContentCharset(params, "UTF-8");
@@ -95,7 +95,7 @@ public class HttpHandler extends AsyncTask<RequestParameters, Void, String> {
 				HttpConnectionParams.setSoTimeout(params, 120000);
 				params.setBooleanParameter(CoreProtocolPNames.USE_EXPECT_CONTINUE, false);
 				
-				// Registra gli schemi per http e https.
+				// Registry patterns for http and https.
 				SchemeRegistry registry = new SchemeRegistry();
 				
 				if (port != null) {
@@ -108,11 +108,11 @@ public class HttpHandler extends AsyncTask<RequestParameters, Void, String> {
 
 				ThreadSafeClientConnManager manager = new ThreadSafeClientConnManager(params, registry);
 				
-				// Esegui la richiesta HTTP.
+				// Run the HTTP request.
 				HttpClient httpClient = new DefaultHttpClient(manager, params);
 				//HttpResponse httpResponse = httpClient.execute(httpPost);
 				HttpResponse httpResponse = httpClient.execute(httpGet);
-				// Leggi la risposta.
+				// Read the answer.
 				if (httpResponse.getStatusLine().getStatusCode() == 200) {
 					response = EntityUtils.toString(httpResponse.getEntity());
 					if (Configuration.DEBUGGABLE) Log.d("HttpHandler", "response: " + response);

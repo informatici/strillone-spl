@@ -38,7 +38,7 @@ public class MainPresenter {
 		//String urlTestata = this.mainActivity.getURLTestata();
 		String urlTestata = this.mainActivity.getResourceTestata();
 		
-		// Trova il nome del file.
+		// Find the file name.
 		Pattern pattern = Pattern.compile("([^\\/]+)$");
 		Matcher matcher = pattern.matcher(urlTestata);
 		
