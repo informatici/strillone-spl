@@ -316,7 +316,7 @@ public class MainActivity extends Activity implements IMainActivity, OnInitListe
 			case TESTATE:
 				if (this.iTestata >= 0) {
 					//Select your newspaper.
-					startProgressDialog(String.format(getString(R.string.connecting_newspaper), this.testate.getTestate().get(this.iTestata).getNome()));
+					//startProgressDialog(String.format(getString(R.string.connecting_newspaper), this.testate.getTestate().get(this.iTestata).getNome()));
 					this.mainPresenter.downloadGiornale();
 					
 //					this.lowerEndSezioni = true;
