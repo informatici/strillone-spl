@@ -252,4 +252,7 @@ Há jornais em seu idioma</value>
   <data name="NoNodeSelectedTestata" xml:space="preserve">
     <value>Você não selecionou nenhum  jornal</value>
   </data>
+  <data name="Buffering" xml:space="preserve">
+    <value>carregamento</value>
+  </data>
 </root>

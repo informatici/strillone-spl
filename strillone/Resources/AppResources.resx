@@ -251,4 +251,7 @@
   <data name="NoNodeSelectedTestata" xml:space="preserve">
     <value>Non è stata selezionata alcuna testata</value>
   </data>
+  <data name="Buffering" xml:space="preserve">
+    <value>Caricamento in corso</value>
+  </data>
 </root>

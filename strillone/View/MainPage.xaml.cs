@@ -20,6 +20,7 @@ using System.Threading;
 
 
 
+
 namespace strillone
 {
     public partial class MainPage : PhoneApplicationPage

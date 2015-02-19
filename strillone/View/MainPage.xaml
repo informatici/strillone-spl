@@ -118,7 +118,8 @@
         </StackPanel>
         
         <MediaElement x:Name="myClickSound" Source="Assets\Sounds\jingle.mp3" AutoPlay="True" Visibility="Collapsed"></MediaElement>
-
+        <MediaElement x:Name="streamSound" Source="" AutoPlay="True" Visibility="Collapsed"></MediaElement>
+        <MediaElement x:Name="streamSoundShoutcast" Source=""   AutoPlay="True" Visibility="Collapsed"></MediaElement>
 
     </Grid>
 

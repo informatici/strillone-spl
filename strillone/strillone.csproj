@@ -136,6 +136,7 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
+    <None Include="packages.config" />
     <None Include="Properties\AppManifest.xml">
       <SubType>Designer</SubType>
     </None>
@@ -176,9 +177,22 @@
     <EmbeddedResource Include="Resources\AppResources.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>AppResources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Src\Silverlight.Media.Shoutcast\Silverlight.Media.Shoutcast.Phone.csproj">
+      <Project>{05CC4102-451C-4EB5-8FEA-614F5B49AB2D}</Project>
+      <Name>Silverlight.Media.Shoutcast.Phone</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MyAudioPlaybackAgent\MyAudioPlaybackAgent.csproj">
+      <Project>{408FDA62-9BCB-4BE0-9F74-D82B4A902468}</Project>
+      <Name>MyAudioPlaybackAgent</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\$(TargetFrameworkIdentifier)\$(TargetFrameworkVersion)\Microsoft.$(TargetFrameworkIdentifier).$(TargetFrameworkVersion).Overrides.targets" />
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\$(TargetFrameworkIdentifier)\$(TargetFrameworkVersion)\Microsoft.$(TargetFrameworkIdentifier).CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
