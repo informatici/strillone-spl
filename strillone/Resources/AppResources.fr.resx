@@ -251,4 +251,7 @@
   <data name="NoNodeSelectedTestata" xml:space="preserve">
     <value>Vous avez sélectionné aucun journal</value>
   </data>
+  <data name="Buffering" xml:space="preserve">
+    <value>chargement</value>
+  </data>
 </root>

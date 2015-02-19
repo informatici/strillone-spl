@@ -251,4 +251,7 @@
   <data name="NoNodeSelectedTestata" xml:space="preserve">
     <value>You haven't selected any newspaper</value>
   </data>
+  <data name="Buffering" xml:space="preserve">
+    <value>Buffering</value>
+  </data>
 </root>
