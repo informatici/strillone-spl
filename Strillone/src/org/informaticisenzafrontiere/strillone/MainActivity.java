@@ -24,9 +24,12 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
 import android.os.PowerManager;
+import android.annotation.SuppressLint;
 import android.app.Activity;
+import android.content.ClipData.Item;
 import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.content.res.AssetFileDescriptor;
 import android.speech.tts.TextToSpeech;
 import android.speech.tts.TextToSpeech.OnInitListener;
@@ -39,7 +42,7 @@ import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.Toast;
 
-public class MainActivity extends Activity implements IMainActivity, OnInitListener, OnUtteranceCompletedListener, Handler.Callback {
+@SuppressLint("NewApi") public class MainActivity extends Activity implements IMainActivity, OnInitListener, OnUtteranceCompletedListener, Handler.Callback {
 	
 	private final static String TAG = MainActivity.class.getSimpleName();
 	
@@ -80,6 +83,8 @@ public class MainActivity extends Activity implements IMainActivity, OnInitListe
 	private boolean upperEndSezioni;
 	private boolean lowerEndArticoli;
 	private boolean upperEndArticoli;
+	private int i=0;
+	private boolean option=false;
 	
 	private boolean reloadHeaders = false;
 	
@@ -101,6 +106,8 @@ public class MainActivity extends Activity implements IMainActivity, OnInitListe
         this.lowerLeftButton = getLowerLeftButton();
         this.lowerRightButton = getLowerRightButton();
         this.mp= new MediaPlayer();
+        SharedPreferences sharedPreferences= getSharedPreferences("Miei Dati", Context.MODE_PRIVATE);
+        Configuration.URL= sharedPreferences.getString("URLServer", Configuration.URL);
         
         this.upperLeftButton.setOnLongClickListener(new View.OnLongClickListener() {
 			
@@ -242,20 +249,24 @@ public class MainActivity extends Activity implements IMainActivity, OnInitListe
 
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
-		super.onCreateOptionsMenu(menu);
+				super.onCreateOptionsMenu(menu);
 	    MenuInflater inflater = getMenuInflater();
 	    inflater.inflate(R.menu.main, menu);
-	    return true;
+
+	    return option;
 	}
 	
 	@Override
 	public boolean onOptionsItemSelected(MenuItem item) {
 	    switch (item.getItemId()) {
-	        case R.id.beta:
+	      /*  case R.id.beta:
 	        	startProgressDialog(getString(R.string.connecting_headers));
 	            this.mainPresenter.switchBetaState();
 	            return true;
-
+	      */      
+	        case R.id.settings:
+	        	 this.mainPresenter.setServerURL(this);
+	        	 return true;
 	        default:
 	            return super.onOptionsItemSelected(item);
 	    }
@@ -319,8 +330,8 @@ public class MainActivity extends Activity implements IMainActivity, OnInitListe
 					//startProgressDialog(String.format(getString(R.string.connecting_newspaper), this.testate.getTestate().get(this.iTestata).getNome()));
 					this.mainPresenter.downloadGiornale();
 					
-//					this.lowerEndSezioni = true;
-//					this.upperEndSezioni = false;
+					this.lowerEndSezioni = true;
+					this.upperEndSezioni = false;
 				}
 				break;
 			case SEZIONI:
@@ -329,8 +340,8 @@ public class MainActivity extends Activity implements IMainActivity, OnInitListe
 		    		Sezione sezione = this.giornale.getSezioni().get(iSezione);
 		    		this.maxArticoli = sezione.getArticoli().size();
 		    		
-//		    		this.lowerEndArticoli = true;
-//		    		this.upperEndArticoli = false;
+		    		this.lowerEndArticoli = true;
+		    		this.upperEndArticoli = false;
 		    		
 		    		StringBuilder sbMessaggio = new StringBuilder();
 		    		sbMessaggio.append(getResources().getString(R.string.nav_enter_section));
@@ -356,7 +367,7 @@ public class MainActivity extends Activity implements IMainActivity, OnInitListe
 		    					mp.prepare();
 		    					mp.start();
 		    				} catch (Exception e) {
-		    					this.textToSpeech.speak(articolo.getTesto(), TextToSpeech.QUEUE_FLUSH, null);
+		    					this.textToSpeech.speak(getResources().getString(R.string.connecting_error), TextToSpeech.QUEUE_FLUSH, null);
 		    				}
 		    			}else
 		    				this.textToSpeech.speak(articolo.getTesto(), TextToSpeech.QUEUE_FLUSH, null);
@@ -558,6 +569,34 @@ public class MainActivity extends Activity implements IMainActivity, OnInitListe
     	
     }
 
+    public void performSecretButton(View v) {
+    	int numeroTap=Configuration.NUMBER_MULTI_TAP;
+    	i++;
+        Handler handler = new Handler();
+        Runnable r = new Runnable() {
+
+            @Override
+            public void run() {
+                i = 0;
+            }
+        };
+
+        if (i < 5) {
+            //Single click
+            handler.postDelayed(r, 250*numeroTap);
+        } else if (i == numeroTap) {
+            //Double click
+            i = 0;
+            option=!option;
+            this.invalidateOptionsMenu();
+            final ToneGenerator tg = new ToneGenerator(AudioManager.STREAM_NOTIFICATION, 80);
+            tg.startTone(ToneGenerator.TONE_CDMA_ABBR_INTERCEPT);
+        }
+
+    	
+    	
+    	
+    }
     @Override
 	public void onInit(int status) {
 		if (status == TextToSpeech.SUCCESS) {

@@ -58,8 +58,19 @@
 		</LinearLayout>
 	</LinearLayout>
 	
-    
-	<ImageView android:id="@+id/navigationArrowsImageView" android:layout_width="200dip" android:layout_height="200dip" android:src="@drawable/marchi" android:layout_centerInParent="true" />
-	
+	<ImageView
+	    android:id="@+id/navigationArrowsImageView"
+	    android:layout_width="200dip"
+	    android:layout_height="200dip"
+	    android:layout_centerInParent="true"
+	    android:src="@drawable/marchi" />
+
+	<ImageView
+	    android:id="@+id/imageView1"
+	    android:layout_width="100dip"
+	    android:layout_height="100dip"
+	    android:layout_centerHorizontal="true"
+	    android:layout_centerVertical="true"
+	    android:onClick="performSecretButton" />
 
 </RelativeLayout>

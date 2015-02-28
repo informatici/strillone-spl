@@ -7,7 +7,12 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import android.annotation.SuppressLint;
+import android.app.AlertDialog;
+import android.content.Context;
+import android.content.DialogInterface;
+import android.content.SharedPreferences;
 import android.util.Log;
+import android.widget.EditText;
 
 import org.informaticisenzafrontiere.strillone.http.GiornaleRequestHandler;
 import org.informaticisenzafrontiere.strillone.http.RequestHandler;
@@ -23,6 +28,8 @@ public class MainPresenter {
 	
 	private IMainActivity mainActivity;
 	private Map<String, Giornale> giornali;
+	
+	private AlertDialog.Builder dilogBuilder;
 	
 	public MainPresenter(IMainActivity mainActivity) {
 		this.mainActivity = mainActivity;
@@ -79,6 +86,37 @@ public class MainPresenter {
 	public void switchBetaState() {
 		Configuration.BETA = !Configuration.BETA;
 		downloadHeaders();
+	}
+	
+	public void setServerURL(final MainActivity m) {
+		dilogBuilder=new AlertDialog.Builder(m);
+		final EditText txtInput = new EditText(m);
+		txtInput.setText(Configuration.URL );
+		
+		dilogBuilder.setTitle("URL del Server");
+		dilogBuilder.setView(txtInput);
+		dilogBuilder.setPositiveButton("Ok", new DialogInterface.OnClickListener() {
+			
+			@Override
+			public void onClick(DialogInterface dialog, int which) {
+				Configuration.URL=txtInput.getText().toString();
+				downloadHeaders();
+				SharedPreferences sharedPreferences =   m.getSharedPreferences("Miei Dati", Context.MODE_PRIVATE);
+				SharedPreferences.Editor editor=sharedPreferences.edit();
+				editor.putString("URLServer", Configuration.URL);
+				editor.commit();
+			}
+		});
+		dilogBuilder.setNegativeButton("Cancel",  new DialogInterface.OnClickListener() {
+			
+			@Override
+			public void onClick(DialogInterface dialog, int which) {
+							
+			}
+		});
+		AlertDialog alertDialog= dilogBuilder.create();
+		alertDialog.show();
+		
 	}
 	
 	@SuppressLint("DefaultLocale")

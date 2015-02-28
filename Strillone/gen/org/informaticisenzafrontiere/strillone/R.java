@@ -30,13 +30,14 @@ public final class R {
         public static final int upperright=0x7f020009;
     }
     public static final class id {
-        public static final int beta=0x7f080008;
         public static final int containerLinearLayout=0x7f080000;
         public static final int firstRowButtonsLinearLayout=0x7f080001;
+        public static final int imageView1=0x7f080008;
         public static final int lowerLeftButton=0x7f080005;
         public static final int lowerRightButton=0x7f080006;
         public static final int navigationArrowsImageView=0x7f080007;
         public static final int secondRowButtonsLinearLayout=0x7f080004;
+        public static final int settings=0x7f080009;
         public static final int upperLeftButton=0x7f080002;
         public static final int upperRightButton=0x7f080003;
     }
