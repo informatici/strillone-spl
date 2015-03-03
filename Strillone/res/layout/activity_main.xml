@@ -69,6 +69,7 @@
 	    android:id="@+id/imageView1"
 	    android:layout_width="100dip"
 	    android:layout_height="100dip"
+	    android:contentDescription="@string/app_name"
 	    android:layout_centerHorizontal="true"
 	    android:layout_centerVertical="true"
 	    android:onClick="performSecretButton" />
