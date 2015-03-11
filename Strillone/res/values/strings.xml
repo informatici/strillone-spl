@@ -44,4 +44,5 @@
 	<string name="pos_section_selected">Sezione: %s.\u0020</string>
 	<string name="pos_no_article_selected">Nessun articolo selezionato.</string>
 	<string name="pos_article_selected">Articolo: %s.</string>
+	<string name="buffering">Caricamento in corso </string>
 </resources>

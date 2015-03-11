@@ -27,7 +27,9 @@ public class GiornaleRequestHandler extends RequestHandler {
 	
 	public GiornaleRequestHandler(MainPresenter mainPresenter, String url, String filename) {
 		this.mainPresenter = mainPresenter;
-		this.url = url;
+		//this.url = url;
+		this.url = Configuration.URL +  "/newspapers/"+url;
+		//this.url = "http://192.168.1.133/strillonews/newspapers/"+url;
 		this.filename = filename;
 	}
 	

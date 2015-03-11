@@ -1,6 +1,8 @@
 package org.informaticisenzafrontiere.strillone;
 
 import java.io.IOException;
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.text.SimpleDateFormat;
 import java.util.HashMap;
 import java.util.LinkedList;
@@ -22,9 +24,12 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
 import android.os.PowerManager;
+import android.annotation.SuppressLint;
 import android.app.Activity;
+import android.content.ClipData.Item;
 import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.content.res.AssetFileDescriptor;
 import android.speech.tts.TextToSpeech;
 import android.speech.tts.TextToSpeech.OnInitListener;
@@ -37,7 +42,7 @@ import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.Toast;
 
-public class MainActivity extends Activity implements IMainActivity, OnInitListener, OnUtteranceCompletedListener, Handler.Callback {
+@SuppressLint("NewApi") public class MainActivity extends Activity implements IMainActivity, OnInitListener, OnUtteranceCompletedListener, Handler.Callback {
 	
 	private final static String TAG = MainActivity.class.getSimpleName();
 	
@@ -54,6 +59,7 @@ public class MainActivity extends Activity implements IMainActivity, OnInitListe
 	private StrilloneButton lowerRightButton;
 	private StrilloneProgressDialog progressDialog;
 	private PowerManager.WakeLock wakeLock = null;
+	private MediaPlayer mp;;
 	
 	private Testate testate;
 	private Giornale giornale;
@@ -67,16 +73,18 @@ public class MainActivity extends Activity implements IMainActivity, OnInitListe
 	private int maxSezioni;
 	private int maxArticoli;
 	
-	// Stabilisce se ci si trova all'inizio della navigazione delle testate.
+	// Determines whether there is at the beginning of the navigation of newspapers.
 	private boolean lowerEndTestate;
 	
-	// Stabilisce se ci si trova alla fine della navigazione delle testate.
+	// Determines whether there is at the end of the navigation of newspapers.
 	private boolean upperEndTestate;
 	
 	private boolean lowerEndSezioni;
 	private boolean upperEndSezioni;
 	private boolean lowerEndArticoli;
 	private boolean upperEndArticoli;
+	private int i=0;
+	private boolean option=false;
 	
 	private boolean reloadHeaders = false;
 	
@@ -97,13 +105,16 @@ public class MainActivity extends Activity implements IMainActivity, OnInitListe
         this.upperRightButton = getUpperRightButton();
         this.lowerLeftButton = getLowerLeftButton();
         this.lowerRightButton = getLowerRightButton();
+        this.mp= new MediaPlayer();
+        SharedPreferences sharedPreferences= getSharedPreferences("Miei Dati", Context.MODE_PRIVATE);
+        Configuration.URL= sharedPreferences.getString("URLServer", Configuration.URL);
         
         this.upperLeftButton.setOnLongClickListener(new View.OnLongClickListener() {
 			
 			public boolean onLongClick(View v) {
-				// Se è un testo "splitted" perché troppo lungo, svuota
-	    		// la code dei messaggi in modo che allo stop non venga
-	    		// riprodotto il messaggio successivo.
+				// If it is a text "splitted" because too long, 
+				//empty your message queues so that the stop may not 
+				//play the next message.
 	    		if (MainActivity.this.sentences != null)
 	    			MainActivity.this.sentences.clear();
 				
@@ -122,9 +133,9 @@ public class MainActivity extends Activity implements IMainActivity, OnInitListe
         this.lowerLeftButton.setOnLongClickListener(new View.OnLongClickListener() {
 			@Override
 			public boolean onLongClick(View v) {
-				// Se è un testo "splitted" perché troppo lungo, svuota
-	    		// la code dei messaggi in modo che allo stop non venga
-	    		// riprodotto il messaggio successivo.
+				// If it is a text "splitted" because too long, 
+				//empty your message queues so that the stop may not 
+				//play the next message.
 	    		if (MainActivity.this.sentences != null)
 	    			MainActivity.this.sentences.clear();
 				
@@ -139,18 +150,18 @@ public class MainActivity extends Activity implements IMainActivity, OnInitListe
 			
 			@Override
 			public boolean onLongClick(View v) {
-				// Se è un testo "splitted" perché troppo lungo, svuota
-	    		// la code dei messaggi in modo che allo stop non venga
-	    		// riprodotto il messaggio successivo.
+				// If it is a text "splitted" because too long, 
+				//empty your message queues so that the stop may not 
+				//play the next message.
 	    		if (MainActivity.this.sentences != null)
 	    			MainActivity.this.sentences.clear();
 				
 				MainActivity.this.textToSpeech.stop();
 				
-				// Calcola la posizione.
+				// Calculates the position.
 				StringBuffer sbPosizione = new StringBuffer(getString(R.string.pos_current));
 				if (iTestata < 0) {
-					// Non è stata selezionata alcuna testata.
+					// Is not selected any newspaper.
 					sbPosizione.append(getString(R.string.pos_no_header_selected));
 				} else {
 					Testata testata = MainActivity.this.testate.getTestate().get(iTestata);
@@ -161,7 +172,7 @@ public class MainActivity extends Activity implements IMainActivity, OnInitListe
 					sbPosizione.append(". ");
 					
 					if (iSezione < 0) {
-						// Non è stata selezionata alcuna sezione.
+						// Is not selected any section.
 						sbPosizione.append(getString(R.string.pos_no_section_selected));
 					} else {
 						Sezione sezione = MainActivity.this.giornale.getSezioni().get(iSezione);
@@ -199,13 +210,13 @@ public class MainActivity extends Activity implements IMainActivity, OnInitListe
 	protected void onPause() {
 		if (Configuration.DEBUGGABLE) Log.d(TAG, "onPause()");
 		
-		// Se stai leggendo un articolo svuota il buffer delle frasi e ferma il TTS.
+		// If you are reading an article flushes the buffer of the phrases and stops the TTS.
 		if (this.sentences != null) {
 			this.sentences.clear();
 		}
 		this.textToSpeech.stop();
 		
-		// Rilascia il controllo sullo standby.
+		// Release control on standby.
 		this.wakeLock.release();
 		super.onPause();
 	}
@@ -238,20 +249,24 @@ public class MainActivity extends Activity implements IMainActivity, OnInitListe
 
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
-		super.onCreateOptionsMenu(menu);
+				super.onCreateOptionsMenu(menu);
 	    MenuInflater inflater = getMenuInflater();
 	    inflater.inflate(R.menu.main, menu);
-	    return true;
+
+	    return option;
 	}
 	
 	@Override
 	public boolean onOptionsItemSelected(MenuItem item) {
 	    switch (item.getItemId()) {
-	        case R.id.beta:
+	      /*  case R.id.beta:
 	        	startProgressDialog(getString(R.string.connecting_headers));
 	            this.mainPresenter.switchBetaState();
 	            return true;
-
+	      */      
+	        case R.id.settings:
+	        	 this.mainPresenter.setServerURL(this);
+	        	 return true;
 	        default:
 	            return super.onOptionsItemSelected(item);
 	    }
@@ -263,81 +278,99 @@ public class MainActivity extends Activity implements IMainActivity, OnInitListe
 //	}
 
 	public void performUpperLeftAction(View v) {
-    	if (this.textToSpeech.isSpeaking()) {
-    		// Se è un testo "splitted" perché troppo lungo, svuota
-    		// la code dei messaggi in modo che allo stop non venga
-    		// riprodotto il messaggio successivo.
-    		if (this.sentences != null)
-    			this.sentences.clear();
-    		
-    		this.textToSpeech.stop();
-    	} else {
-    		if (reloadHeaders) {
-    			startProgressDialog(getString(R.string.connecting_headers));
-    	        this.mainPresenter.downloadHeaders();
-    		} else {
-	    		switch (this.navigationLevel) {
-					case TESTATE:
-						resetNavigation();
-			    		this.textToSpeech.speak(getResources().getString(R.string.nav_home), TextToSpeech.QUEUE_FLUSH, null);
-						break;
-					case SEZIONI:
-						// Passa alla navigazione delle testate.
-						this.navigationLevel = NavigationLevel.TESTATE;
-						this.iSezione = -1;
-						this.textToSpeech.speak(getResources().getString(R.string.nav_go_testate), TextToSpeech.QUEUE_FLUSH, null);
-						break;
-					case ARTICOLI:
-						// Passa alla navigazione delle sezioni.
-						this.navigationLevel = NavigationLevel.SEZIONI;
-						this.iArticolo = -1;
-						this.textToSpeech.speak(getResources().getString(R.string.nav_go_sezioni), TextToSpeech.QUEUE_FLUSH, null);
-						break;
-					default:
-						break;
-				}
-    		}
-    		
-    	}
+		
+		if(!mp.isPlaying()){
+	    	if (this.textToSpeech.isSpeaking()) {
+	    		// If it is a text "splitted" because too long, 
+				//empty your message queues so that the stop may not 
+				//play the next message.
+	    		if (this.sentences != null)
+	    			this.sentences.clear();
+	    		
+	    		this.textToSpeech.stop();
+	    	} else {
+	    		if (reloadHeaders) {
+	    			startProgressDialog(getString(R.string.connecting_headers));
+	    	        this.mainPresenter.downloadHeaders();
+	    		} else {
+		    		switch (this.navigationLevel) {
+						case TESTATE:
+							resetNavigation();
+				    		this.textToSpeech.speak(getResources().getString(R.string.nav_home), TextToSpeech.QUEUE_FLUSH, null);
+							break;
+						case SEZIONI:
+							// Skip to navigation of newspapers.
+							this.navigationLevel = NavigationLevel.TESTATE;
+							this.iSezione = -1;
+							this.textToSpeech.speak(getResources().getString(R.string.nav_go_testate), TextToSpeech.QUEUE_FLUSH, null);
+							break;
+						case ARTICOLI:
+							// Skip to navigation sections.
+							this.navigationLevel = NavigationLevel.SEZIONI;
+							this.iArticolo = -1;
+							this.textToSpeech.speak(getResources().getString(R.string.nav_go_sezioni), TextToSpeech.QUEUE_FLUSH, null);
+							break;
+						default:
+							break;
+					}
+	    		}
+	    		
+	    	}
+		}else
+			mp.stop();
+		
     }
     
     public void performLowerLeftAction(View v) {
+    	mp.stop();
     	switch (this.navigationLevel) {
 			case TESTATE:
 				if (this.iTestata >= 0) {
-					// Seleziona la testata.
-					startProgressDialog(String.format(getString(R.string.connecting_newspaper), this.testate.getTestate().get(this.iTestata).getNome()));
+					//Select your newspaper.
+					//startProgressDialog(String.format(getString(R.string.connecting_newspaper), this.testate.getTestate().get(this.iTestata).getNome()));
 					this.mainPresenter.downloadGiornale();
 					
-//					this.lowerEndSezioni = true;
-//					this.upperEndSezioni = false;
+					this.lowerEndSezioni = true;
+					this.upperEndSezioni = false;
 				}
 				break;
 			case SEZIONI:
 				if (this.iSezione >= 0) {
-		    		// Entra nella sezione.
+		    		// Enter the section.
 		    		Sezione sezione = this.giornale.getSezioni().get(iSezione);
 		    		this.maxArticoli = sezione.getArticoli().size();
 		    		
-//		    		this.lowerEndArticoli = true;
-//		    		this.upperEndArticoli = false;
+		    		this.lowerEndArticoli = true;
+		    		this.upperEndArticoli = false;
 		    		
 		    		StringBuilder sbMessaggio = new StringBuilder();
 		    		sbMessaggio.append(getResources().getString(R.string.nav_enter_section));
 		    		sbMessaggio.append(sezione.getNome());
 		    		this.navigationLevel = NavigationLevel.ARTICOLI;
-		    		
 		    		this.textToSpeech.speak(sbMessaggio.toString(), TextToSpeech.QUEUE_FLUSH, null);
 	    		}
 				break;
 			case ARTICOLI:
 				if (this.iArticolo >= 0) {
-		    		// Leggi l'articolo.
+		    		//Read the article.
 		    		Sezione sezione = this.giornale.getSezioni().get(iSezione);
 		    		Articolo articolo = sezione.getArticoli().get(iArticolo);
 		    		
 		    		if (articolo.getTesto().length() <= Configuration.SENTENCE_MAX_LENGTH) {
-		    			this.textToSpeech.speak(articolo.getTesto(), TextToSpeech.QUEUE_FLUSH, null);
+		    			//If the article belongs to the head of the radio, play
+		    			if(this.giornale.getTestata().compareTo("Radio Online")==0){
+		    				try {
+		    					URL url = new URL(articolo.getTesto());
+		    					this.textToSpeech.speak(getResources().getString(R.string.buffering), TextToSpeech.QUEUE_FLUSH, null);
+		    					mp = new MediaPlayer();
+		    					mp.setDataSource(articolo.getTesto());
+		    					mp.prepare();
+		    					mp.start();
+		    				} catch (Exception e) {
+		    					this.textToSpeech.speak(getResources().getString(R.string.connecting_error), TextToSpeech.QUEUE_FLUSH, null);
+		    				}
+		    			}else
+		    				this.textToSpeech.speak(articolo.getTesto(), TextToSpeech.QUEUE_FLUSH, null);
 		    		} else {
 		    			if (Configuration.DEBUGGABLE) Log.d(TAG, "Testo troppo lungo, splitting...");
 		    			this.sentences = this.mainPresenter.splitString(articolo.getTesto(), Configuration.SENTENCE_MAX_LENGTH);
@@ -354,10 +387,10 @@ public class MainActivity extends Activity implements IMainActivity, OnInitListe
 			default:
 				break;
 		}
-    	
     }
     
     public void performUpperRightAction(View v) {
+    	mp.stop();
     	switch (this.navigationLevel) {
 			case TESTATE:
 				if (this.lowerEndTestate) {
@@ -365,7 +398,7 @@ public class MainActivity extends Activity implements IMainActivity, OnInitListe
 						// 
 						this.textToSpeech.speak(getString(R.string.nav_first_header), TextToSpeech.QUEUE_FLUSH, null);
 					} else {
-						// Caso dell'app appena avviata o resettata.
+						// If the app just started or reset.
 						this.textToSpeech.speak(getString(R.string.nav_use_lower_button_start_navigation_headers), TextToSpeech.QUEUE_FLUSH, null);
 					}
 				} else {
@@ -455,7 +488,8 @@ public class MainActivity extends Activity implements IMainActivity, OnInitListe
     	
     }
     
-    public void performLowerRightAction(View v) {  	
+    public void performLowerRightAction(View v) {
+    	mp.stop();
     	switch (this.navigationLevel) {
 			case TESTATE:
 				if (this.upperEndTestate) {
@@ -535,6 +569,34 @@ public class MainActivity extends Activity implements IMainActivity, OnInitListe
     	
     }
 
+    public void performSecretButton(View v) {
+    	int numeroTap=Configuration.NUMBER_MULTI_TAP;
+    	i++;
+        Handler handler = new Handler();
+        Runnable r = new Runnable() {
+
+            @Override
+            public void run() {
+                i = 0;
+            }
+        };
+
+        if (i < 5) {
+            //Single click
+            handler.postDelayed(r, 250*numeroTap);
+        } else if (i == numeroTap) {
+            //Double click
+            i = 0;
+            option=!option;
+            this.invalidateOptionsMenu();
+            final ToneGenerator tg = new ToneGenerator(AudioManager.STREAM_NOTIFICATION, 80);
+            tg.startTone(ToneGenerator.TONE_CDMA_ABBR_INTERCEPT);
+        }
+
+    	
+    	
+    	
+    }
     @Override
 	public void onInit(int status) {
 		if (status == TextToSpeech.SUCCESS) {
@@ -586,13 +648,13 @@ public class MainActivity extends Activity implements IMainActivity, OnInitListe
 		
 		resetNavigation();
 		
-		// Visualizza i pulsanti.
+		// View buttons.
 		this.upperLeftButton.setVisibility(View.VISIBLE);
         this.upperRightButton.setVisibility(View.VISIBLE);
         this.lowerLeftButton.setVisibility(View.VISIBLE);
         this.lowerRightButton.setVisibility(View.VISIBLE);
 		
-		// Abilita i pulsanti al touch.
+		// Enable buttons to touch.
 		this.upperLeftButton.setClickable(true);
         this.upperRightButton.setClickable(true);
         this.lowerLeftButton.setClickable(true);
@@ -621,6 +683,12 @@ public class MainActivity extends Activity implements IMainActivity, OnInitListe
 	}
 	
 	@Override
+	public String getResourceTestata() {
+		Testata testata = (Testata)this.testate.getTestate().get(iTestata);
+		return testata.getResource();
+	}
+	
+	@Override
 	public void notifyGiornaleReceived(Giornale giornale) {
 		if (Configuration.DEBUGGABLE) Log.d(TAG, "notifyGiornaleReceived()");
 		dismissProgressDialog();
@@ -640,10 +708,10 @@ public class MainActivity extends Activity implements IMainActivity, OnInitListe
 	}
 	
 	private void resetNavigation() {
-		// Inizializza il livello di navigazione.
+		// Initializes the navigation level.
 		this.navigationLevel = NavigationLevel.TESTATE;
 				
-		// Imposta gli indici a inizio navigazione.
+		// Sets the indices to start navigation.
 		this.iTestata = -1;
     	this.iSezione = -1;
     	this.iArticolo = -1;
