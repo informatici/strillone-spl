@@ -110,11 +110,6 @@ import 	android.speech.SpeechRecognizer;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
      
-     
-     /*   
-       if (getAccessibilityEnabled()) Toast.makeText(MainActivity.this, "Talkback Attivato." ,Toast.LENGTH_SHORT).show();
-       							else Toast.makeText(MainActivity.this, "Talkback Disttivato." ,Toast.LENGTH_SHORT).show();
-       */
         this.upperLeftButton = getUpperLeftButton();
         this.upperRightButton = getUpperRightButton();
         this.lowerLeftButton = getLowerLeftButton();
@@ -601,6 +596,8 @@ import 	android.speech.SpeechRecognizer;
     	}
     	
     }
+    
+    
 
     @Override
 	public void onInit(int status) {
