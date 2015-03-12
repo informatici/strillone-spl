@@ -7,5 +7,7 @@ public class Configuration {
 	public static boolean BETA = false;
 	
 	public final static int SENTENCE_MAX_LENGTH = 3800; 
+	
+	
 
 }
