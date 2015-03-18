@@ -8,6 +8,8 @@ import java.util.LinkedList;
 import java.util.Locale;
 
 
+
+
 import org.informaticisenzafrontiere.strillone.ui.StrilloneButton;
 import org.informaticisenzafrontiere.strillone.ui.StrilloneProgressDialog;
 import org.informaticisenzafrontiere.strillone.util.Configuration;
@@ -16,6 +18,10 @@ import org.informaticisenzafrontiere.strillone.xml.Giornale;
 import org.informaticisenzafrontiere.strillone.xml.Sezione;
 import org.informaticisenzafrontiere.strillone.xml.Testata;
 import org.informaticisenzafrontiere.strillone.xml.Testate;
+
+
+
+
 
 import android.media.AudioManager;
 import android.media.MediaPlayer;
@@ -36,18 +42,28 @@ import android.speech.tts.TextToSpeech.OnInitListener;
 //import android.speech.tts.TextToSpeech.OnUtteranceCompletedListener;
 import android.speech.tts.UtteranceProgressListener;
 import android.util.Log;
+import android.view.GestureDetector;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
+import android.view.MotionEvent;
 import android.view.View;
+import android.view.View.OnTouchListener;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.Toast;
 import 	android.speech.SpeechRecognizer;
 
- @SuppressLint("NewApi") public class MainActivity extends Activity implements IMainActivity, OnInitListener, Handler.Callback, RecognitionListener  {
+
+
+public class MainActivity extends Activity implements IMainActivity, OnInitListener, Handler.Callback, RecognitionListener,GestureDetector.OnGestureListener, OnTouchListener  {
 	
 	private final static String TAG = MainActivity.class.getSimpleName();
+	
+
+	private GestureDetector mDetector; 
+	private static final int SWIPE_MIN_DISTANCE = 200;
+	private static final int SWIPE_THRESHOLD_VELOCITY = 200;
 	
 	enum NavigationLevel {
 		TESTATE, SEZIONI, ARTICOLI;
@@ -100,13 +116,13 @@ import 	android.speech.SpeechRecognizer;
 		this.mainPresenter = new MainPresenter(this);
 	}
 	
-	private boolean accessibilityEnabled=false;
+	//private boolean accessibilityEnabled=false;
 	private SpeechRecognizer speechRecognizer; // the speech recognizer
     private boolean speechRecognizerOn=false;  // state of the speech recognizer. 
     private HashMap<String, String> params = new HashMap<String, String>(); //textToSpeech.speak function parameter
 	
 
-    @SuppressLint("NewApi") public void onCreate(Bundle savedInstanceState) {
+    @SuppressLint({ "NewApi", "ClickableViewAccessibility" }) public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
      
@@ -116,7 +132,16 @@ import 	android.speech.SpeechRecognizer;
         this.lowerRightButton = getLowerRightButton();
         
         
+        this.upperLeftButton.setOnTouchListener(this);
+        this.upperRightButton.setOnTouchListener(this);
+        this.lowerLeftButton.setOnTouchListener(this);
+        this.lowerRightButton.setOnTouchListener(this);
+        
         speechRecognizer = SpeechRecognizer.createSpeechRecognizer(getApplicationContext()); // create the speech recognizer.
+       
+        
+        mDetector = new GestureDetector(this,this);
+        
         
         MainActivity.this.params.put(TextToSpeech.Engine.KEY_PARAM_UTTERANCE_ID,"Strillone"); //add the parametrer 
         
@@ -159,9 +184,9 @@ import 	android.speech.SpeechRecognizer;
         
         this.lowerRightButton.setOnLongClickListener(new View.OnLongClickListener() {
 			@Override
-			public boolean onLongClick(View v) {
-			 speechRecognizerOn=true; 
-		     createListener(); //to launch speech recognizer
+			public boolean onLongClick(View v) { 
+		     //createListener(); //to launch speech recognizer
+			 //tasto non utilizzato
 		    return true;
 			}
 		});
@@ -228,7 +253,7 @@ import 	android.speech.SpeechRecognizer;
     }
     
   
-    UtteranceProgressListener utteranceProgressListener=new UtteranceProgressListener() {
+    @SuppressLint("NewApi") UtteranceProgressListener utteranceProgressListener=new UtteranceProgressListener() {
 
         @Override
         public void onStart(String utteranceId) {
@@ -750,6 +775,7 @@ import 	android.speech.SpeechRecognizer;
 		}
 	}
 	
+	@SuppressWarnings("unused")
 	private void playTone() {
 		ToneGenerator toneGenerator = new ToneGenerator(AudioManager.STREAM_NOTIFICATION, 100);
         toneGenerator.startTone(ToneGenerator.TONE_PROP_BEEP);
@@ -763,8 +789,9 @@ import 	android.speech.SpeechRecognizer;
 	
 	@Override
 	public void onReadyForSpeech(Bundle params) {
-				if (accessibilityEnabled) Toast.makeText(MainActivity.this, R.string.startRecognizer ,Toast.LENGTH_SHORT).show();
-										  else showMicrophone();
+				/*if (accessibilityEnabled) Toast.makeText(MainActivity.this, R.string.startRecognizer ,Toast.LENGTH_SHORT).show();
+										  else showMicrophone();*/
+		showMicrophone();
 		if (Configuration.DEBUGGABLE) Log.i(TAG, "Ready for speech.");	
 	}
 	
@@ -801,7 +828,8 @@ import 	android.speech.SpeechRecognizer;
 	@Override
 	public void onEndOfSpeech() {
 		if (Configuration.DEBUGGABLE) Log.i(TAG, "End of speech");
-		if (!accessibilityEnabled) hideMicrophone(); //hide microphone's icon if talkback is off.
+		//if (!accessibilityEnabled) hideMicrophone(); //hide microphone's icon if talkback is off.
+		hideMicrophone();
 	}
 
 
@@ -809,7 +837,7 @@ import 	android.speech.SpeechRecognizer;
 	@Override
 	public void onError(int error) {
 		   String strerror=null;
-   			switch (error){
+   		   switch (error){
            case 1: strerror="Network operation timed out."; break;
            case 2: strerror="Other network related errors."; break;
            case 3: strerror="Audio recording error."; break;
@@ -859,10 +887,77 @@ import 	android.speech.SpeechRecognizer;
 	}
 	
 	public void createListener(){	
+		 Toast.makeText(MainActivity.this, R.string.startRecognizer ,Toast.LENGTH_SHORT).show();
+		 speechRecognizerOn=true;
 	     speechRecognizer.setRecognitionListener(MainActivity.this);
 	     final Intent intent = new Intent(RecognizerIntent.ACTION_RECOGNIZE_SPEECH);
 	     intent.putExtra(RecognizerIntent.EXTRA_LANGUAGE_MODEL,RecognizerIntent.LANGUAGE_MODEL_FREE_FORM);
 	     speechRecognizer.startListening(intent); 
+	}
+
+	@Override 
+	public boolean onTouchEvent(MotionEvent event){ 
+	this.mDetector.onTouchEvent(event);
+	//return super.onTouchEvent(event);
+	return false;
+	}
+	
+	@Override
+	public boolean onDown(MotionEvent e) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public void onShowPress(MotionEvent e) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public boolean onSingleTapUp(MotionEvent e) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public boolean onScroll(MotionEvent e1, MotionEvent e2, float distanceX,
+			float distanceY) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public void onLongPress(MotionEvent e) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public boolean onFling(MotionEvent e1, MotionEvent e2, float velocityX,
+		float velocityY) {
+		boolean result=false;
+		float offsetX= Math.abs(e1.getX()-e2.getX());
+		float offsetY=Math.abs(e1.getY()-e2.getY());
+		// se è maggiore offset di X considero solo da destra a sinistra e da sinistra a destra. 
+		// se è maggiore offset di Y considero solo da su a giu e da giu a su
+		if (offsetX>offsetY) {  if(e1.getX() - e2.getX() > SWIPE_MIN_DISTANCE && Math.abs(velocityX) > SWIPE_THRESHOLD_VELOCITY) {
+								createListener(); result=true; }  
+								else if (e2.getX() - e1.getX() > SWIPE_MIN_DISTANCE && Math.abs(velocityX) > SWIPE_THRESHOLD_VELOCITY) {
+								createListener(); result=true; }} 
+						else {  if(e1.getY() - e2.getY() > SWIPE_MIN_DISTANCE && Math.abs(velocityY) > SWIPE_THRESHOLD_VELOCITY) {
+								createListener(); result=true;}
+								else if (e2.getY() - e1.getY() > SWIPE_MIN_DISTANCE && Math.abs(velocityY) > SWIPE_THRESHOLD_VELOCITY) {
+								createListener(); result=true; }}
+		return result;
+	}
+
+	
+	 @Override
+	public boolean onTouch(View v, MotionEvent event) {
+		this.mDetector.onTouchEvent(event);	
+		return false;
+		//return false;// con false funzionano le gesture e i bottoni
 	}
 	
 	
