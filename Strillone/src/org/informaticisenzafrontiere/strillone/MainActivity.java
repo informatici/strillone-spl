@@ -8,8 +8,6 @@ import java.util.LinkedList;
 import java.util.Locale;
 
 
-
-
 import org.informaticisenzafrontiere.strillone.ui.StrilloneButton;
 import org.informaticisenzafrontiere.strillone.ui.StrilloneProgressDialog;
 import org.informaticisenzafrontiere.strillone.util.Configuration;
@@ -18,9 +16,6 @@ import org.informaticisenzafrontiere.strillone.xml.Giornale;
 import org.informaticisenzafrontiere.strillone.xml.Sezione;
 import org.informaticisenzafrontiere.strillone.xml.Testata;
 import org.informaticisenzafrontiere.strillone.xml.Testate;
-
-
-
 
 
 import android.media.AudioManager;
