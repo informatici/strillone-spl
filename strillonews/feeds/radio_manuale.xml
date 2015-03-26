@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<giornale>
+  <lingua>it</lingua>
+  <testata>Radio Online</testata>
+  <edizione>2014-11-01</edizione>
+  
+   <sezione>
+    <nome>Radio italiane</nome>
+    <articolo>
+        <titolo><![CDATA[Radio 105 Network]]></titolo>
+        <testo><![CDATA[http://shoutcast.unitedradio.it:1101/;stream.mp3]]></testo>
+    </articolo>
+    <articolo>
+        <titolo><![CDATA[Radio 24]]></titolo>
+        <testo><![CDATA[http://shoutcast2.radio24.it:8000/;stream.nsv]]></testo>
+    </articolo>
+    <articolo>
+        <titolo><![CDATA[Capital]]></titolo>
+        <testo><![CDATA[http://mp3.kataweb.it:8000/CAPITAL]]></testo>
+    </articolo>
+    <articolo>
+        <titolo><![CDATA[Deejay]]></titolo>
+        <testo><![CDATA[http://mp3.kataweb.it:8000/RadioDeejay]]></testo>
+    </articolo>
+    <articolo>
+        <titolo><![CDATA[Radio Kiss Kiss]]></titolo>
+        <testo><![CDATA[http://ice07.fluidstream.net:8080/KissKiss.mp3]]></testo>
+    </articolo>
+    <articolo>
+        <titolo><![CDATA[Latte Miele]]></titolo>
+        <testo><![CDATA[http://onair18.xdevel.com:8014/;?.mp3]]></testo>
+    </articolo>
+     <articolo>
+        <titolo><![CDATA[M 2 o]]></titolo>
+        <testo><![CDATA[http://mp3.kataweb.it:8000/M2O]]></testo>
+    </articolo>
+    <articolo>
+        <titolo><![CDATA[Radio Maria]]></titolo>
+        <testo><![CDATA[http://50.7.181.186:8092/;stream.mp3]]></testo>
+    </articolo>
+    <articolo>
+        <titolo><![CDATA[Radio Mater]]></titolo>
+        <testo><![CDATA[http://s3.shoutitaly.com:8016/;stream.nsv]]></testo>
+    </articolo>
+    <articolo>
+        <titolo><![CDATA[Monte Carlo 2]]></titolo>
+        <testo><![CDATA[http://shoutcast.unitedradio.it:1103/;stream.nsvv]]></testo>
+    </articolo>
+    <articolo>
+        <titolo><![CDATA[R 101]]></titolo>
+        <testo><![CDATA[http://str30.creacast.com/r101a]]></testo>
+    </articolo>
+    <articolo>
+        <titolo><![CDATA[Radio Dimensione Suono]]></titolo>
+        <testo><![CDATA[http://46.37.20.205:8000/rdsmp3]]></testo>
+    </articolo>
+    <articolo>
+        <titolo><![CDATA[Radio Italia]]></titolo>
+        <testo><![CDATA[http://shoutcast3.cdcache.net:8000/;stream.nsv]]></testo>
+    </articolo>
+    <articolo>
+        <titolo><![CDATA[Radio Radicale]]></titolo>
+        <testo><![CDATA[http://livemp3.radioradicale.it/live.mp3]]></testo>
+    </articolo>
+    <articolo>
+        <titolo><![CDATA[RTL 102 e 5]]></titolo>
+        <testo><![CDATA[http://shoutcast.rtl.it:3010/stream/1/]]></testo>
+    </articolo>
+    <articolo>
+        <titolo><![CDATA[Virgin Radio Italia]]></titolo>
+        <testo><![CDATA[http://shoutcast.unitedradio.it:1301/;stream.nsv]]></testo>
+    </articolo>
+    <articolo>
+        <titolo><![CDATA[Rai radio 1 ]]></titolo>
+        <testo><![CDATA[http://icestreaming.rai.it/1.mp3]]></testo>
+    </articolo>
+    <articolo>
+        <titolo><![CDATA[Rai radio 2 ]]></titolo>
+        <testo><![CDATA[http://icestreaming.rai.it/2.mp3]]></testo>
+    </articolo>
+    <articolo>
+        <titolo><![CDATA[Rai radio 3 ]]></titolo>
+        <testo><![CDATA[http://icestreaming.rai.it/3.mp3]]></testo>
+    </articolo>
+    <articolo>
+        <titolo><![CDATA[Rai isoradio ]]></titolo>
+        <testo><![CDATA[http://icestreaming.rai.it/6.mp3]]></testo>
+    </articolo>
+    <articolo>
+        <titolo><![CDATA[Rai gr parlamento ]]></titolo>
+        <testo><![CDATA[http://icestreaming.rai.it/7.mp3]]></testo>
+    </articolo>
+  </sezione>
+    <!--
+  <sezione>
+    <nome>Radio inserite manualmente</nome>
+    <articolo>
+        <titolo><![CDATA[pat metheny]]></titolo>
+        <testo><![CDATA[http://216.235.85.20/play?s=cimg&d=LIVE365&r=0&membername=&session=1423756613-572559&AuthType=NORMAL&ff=15&app_id=live365%3AMozilla5.0Wi&SaneID=93.43.117.41-14171326605902213295601&rnd=0.03533857502043247]]></testo>
+    </articolo>
+    <articolo>
+        <titolo><![CDATA[sbagliata a posta]]></titolo>
+        <testo><![CDATA[http://www.aa.it]]></testo>
+    </articolo>
+    <articolo>
+        <titolo><![CDATA[asbagliata a posta2]]></titolo>
+        <testo><![CDATA[http://www.aa2.it]]></testo>
+    </articolo>
+    <articolo>
+        <titolo><![CDATA[bsbagliata a posta3]]></titolo>
+        <testo><![CDATA[http://www.aa4.it]]></testo>
+    </articolo>
+  </sezione>
+  -->
+  <sezione>
+    <nome>Radio inglesi</nome>
+    <articolo>
+        <titolo><![CDATA[BBC Radio 1]]></titolo>
+        <testo><![CDATA[http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio1_mf_p]]></testo>
+    </articolo>
+    <articolo>
+        <titolo><![CDATA[Rainbow Radio]]></titolo>
+        <testo><![CDATA[http://67.159.60.45:8096/]]></testo>
+    </articolo>
+    <articolo>
+        <titolo><![CDATA[Gold]]></titolo>
+        <testo><![CDATA[http://81.20.48.12:80/GoldMP3]]></testo>
+    </articolo>
+    <articolo>
+        <titolo><![CDATA[Jazz FM]]></titolo>
+        <testo><![CDATA[http://adsi-e-02-boh.sharp-stream.com/jazzfmmobile.mp3]]></testo>
+    </articolo>
+  </sezione>
+  
+</giornale>
+
+
