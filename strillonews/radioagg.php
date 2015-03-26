@@ -7,9 +7,9 @@ ini_set('max_execution_time', 3000);
     
     
     $xml1 = simplexml_load_file( $file1 );
-    $xml2 = simplexml_load_file( $file2 );
     
-    radioAutomatiche('feeds/radio_automatiche.xml');
+    
+    radioAutomatiche($file2);
     
     $xml2 = simplexml_load_file( $file2 );
     
@@ -32,33 +32,39 @@ ini_set('max_execution_time', 3000);
     
     
     $xml3 = simplexml_load_file( $fileout );
-   
+    echo " \r\n ";
+    echo "______________________CONTROLLO DELLA VALIDITA' DEI LINK_____________________\r\n";
      foreach( $xml3->sezione as $sezione) {
-	
-        foreach( $sezione->children() as $child ) {
-		
-		$url=$child->testo;
-		
+	$e=true;
+	while($e==true){
 	    
-	    if ($url!=""){
-		$headers = @get_headers($url, 6);
-		if ((!@stringEndsWith($headers[0],'OK'))or $headers ==null ) {
-		    echo $child->titolo;;
-		    echo "_________Errore di connessione!";
-		    $dom=dom_import_simplexml($child);
-		    $dom->parentNode->removeChild($dom);
+	    foreach( $sezione->children() as $child ) {
 		    
+		    $url=$child->testo;
+		if ($url!=""){
+		    $headers = @get_headers($url, 6);
+		    if ((!@stringEndsWith($headers[0],'OK'))or $headers ==null ) {
+			echo $child->titolo;
+			echo "_________Errore di connessione!";
+			echo " \r\n";
+			$dom=dom_import_simplexml($child);
+			$dom->parentNode->removeChild($dom);
+			
+			$e=true;
+			}
+		    else
+		    {
+			//echo $child->titolo;
+			//echo " \r\n ";
+			$e=false;
 		    }
-		else
-		{
-		    echo $child->titolo;
-		    echo "_________Funziona";
 		}
+		
 	    }
-	    echo " \r\n ";
 	}
      }
-     
+     echo " \r\n ";
+     echo "_______________________________SALVATAGGIO_________________________________\r\n";
      $fh = fopen( $fileout, 'w') or die ( "can't open file $fileout" );
     fwrite( $fh, $xml3->asXML() );
     fclose( $fh );
@@ -79,7 +85,7 @@ function radioAutomatiche($file)
     $ele = $doc->createElement( 'nome' );
     $ele->nodeValue = 'Radio italiane shoutcast';
     $root->appendChild( $ele );
-    
+    echo " \r\n ";
     echo "______________________RICERCA DELLE RADIO IN AUTOMATICO______________________\r\n";
     
     
@@ -107,7 +113,7 @@ function radioAutomatiche($file)
 	
     }
     echo " \r\n ";
-    echo "_______________________________SALVATAGGIO_________________________________\r\n";
+    echo "_________________________SALVATAGGIO RADIO AUTOMATICHE_____________________\r\n";
     
    
     $fh = fopen( $file, 'w') or die ( "can't open file $fileout" );

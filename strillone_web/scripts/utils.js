@@ -1,3 +1,4 @@
+var URLServer="http://localhost/strillonews"
 var giornale = new Array();
 var testata = new Array();
 
@@ -139,7 +140,7 @@ $(document).ready(function() {
 	
     jQuery.getTestata({
 	//url: './newspapers',
-        url: 'http://localhost/strillonewsb/newspapers',
+        url: URLServer+'/newspapers',
         success: function(feed) {
 			testata['testate'] = feed.testate;
         }
@@ -198,7 +199,7 @@ var audio ;
 				// http://www.bresciaonline.it/or4/or?uid=GDBcarta.main.view&edizione=2013-03-04&id=6TXUTR75
 
 				jQuery.getGiornale({
-					url: 'http://localhost/strillonewsb/newspapers/' + testata['testate'][testata_position]['resource'],
+					url: URLServer+'/newspapers/' + testata['testate'][testata_position]['resource'],
 					success: function(feed) {
 						giornale['edizione'] = feed.edizione;
 						giornale['sezioni'] = feed.sezioni;
@@ -227,19 +228,20 @@ var audio ;
 			
 			case 'articolo':
 			if (testata['testate'][testata_position]['resource']=='radio') {
-				//blindnews_tts('la la la , lalala, la;la la ;la;la');
-				// /;stream.mp3
-				var source= document.createElement('source');
-				source.src= giornale['sezioni'][sezione_position]['articoli'][articolo_position]['testo'];
-				source.autoplay='autoplay';
-				audio = document.getElementById("a1");
-				audio.replaceChild(source,audio.childNodes[0]);
-				var source2= document.createElement('source');
-				source2.src= giornale['sezioni'][sezione_position]['articoli'][articolo_position]['testo']+'/;stream.mp3';
-				source2.autoplay='autoplay';
-				audio.replaceChild(source2,audio.childNodes[1]);
-				audio.load();
-				//my_jPlayer.jPlayer("setMedia", {mp3: }).jPlayer("play");
+				try {
+					var source= document.createElement('source');
+					source.src= giornale['sezioni'][sezione_position]['articoli'][articolo_position]['testo'];
+					source.autoplay='autoplay';
+					audio = document.getElementById("a1");
+					audio.replaceChild(source,audio.childNodes[0]);
+					var source2= document.createElement('source');
+					source2.src= giornale['sezioni'][sezione_position]['articoli'][articolo_position]['testo']+'/;stream.mp3';
+					source2.autoplay='autoplay';
+					audio.replaceChild(source2,audio.childNodes[1]);
+					audio.load();
+				}
+				catch(err) { }
+				
 			}else
 				blindnews_tts(giornale['sezioni'][sezione_position]['articoli'][articolo_position]['testo']);
 			break;

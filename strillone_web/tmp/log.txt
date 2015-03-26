@@ -10738,3 +10738,2073 @@ Da quel tempo, si dice che nella stagione in cui appaiono gli scarafaggi, le aqu
 [Trace] Tingwo: elaborating...
 [Trace] Text: repubblica punto it. Edizione del 30 Gennaio 2015
 [Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 repubblica+punto+it.+Edizione+del+30+Gennaio+2015&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: repubblica punto it. Edizione del 06 Febbraio 2015
+[Trace] URLENCODE:repubblica+punto+it.+Edizione+del+06+Febbraio+2015
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: repubblica punto it. Edizione del 06 Febbraio 2015
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 repubblica+punto+it.+Edizione+del+06+Febbraio+2015&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: radio online. Edizione del 06 Febbraio 2015
+[Trace] URLENCODE:radio+online.+Edizione+del+06+Febbraio+2015
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: radio online. Edizione del 06 Febbraio 2015
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 radio+online.+Edizione+del+06+Febbraio+2015&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: repubblica punto it. Edizione del 06 Febbraio 2015
+[Trace] URLENCODE:repubblica+punto+it.+Edizione+del+06+Febbraio+2015
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: repubblica punto it. Edizione del 06 Febbraio 2015
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 repubblica+punto+it.+Edizione+del+06+Febbraio+2015&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: radio online. Edizione del 06 Febbraio 2015
+[Trace] URLENCODE:radio+online.+Edizione+del+06+Febbraio+2015
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: radio online. Edizione del 06 Febbraio 2015
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 radio+online.+Edizione+del+06+Febbraio+2015&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: go bari. Edizione del 06 Febbraio 2015
+[Trace] URLENCODE:go+bari.+Edizione+del+06+Febbraio+2015
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: go bari. Edizione del 06 Febbraio 2015
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 go+bari.+Edizione+del+06+Febbraio+2015&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: go fasano. Edizione del 06 Febbraio 2015
+[Trace] URLENCODE:go+fasano.+Edizione+del+06+Febbraio+2015
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: go fasano. Edizione del 06 Febbraio 2015
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 go+fasano.+Edizione+del+06+Febbraio+2015&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: favole e racconti. Edizione del 06 Febbraio 2015
+[Trace] URLENCODE:favole+e+racconti.+Edizione+del+06+Febbraio+2015
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: favole e racconti. Edizione del 06 Febbraio 2015
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 favole+e+racconti.+Edizione+del+06+Febbraio+2015&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: test inglese. Edizione del 06 Febbraio 2015
+[Trace] URLENCODE:test+inglese.+Edizione+del+06+Febbraio+2015
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: test inglese. Edizione del 06 Febbraio 2015
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 test+inglese.+Edizione+del+06+Febbraio+2015&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: test portoghese. Edizione del 06 Febbraio 2015
+[Trace] URLENCODE:test+portoghese.+Edizione+del+06+Febbraio+2015
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: test portoghese. Edizione del 06 Febbraio 2015
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 test+portoghese.+Edizione+del+06+Febbraio+2015&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: test portoghese. Edizione del 06 Febbraio 2015
+[Trace] URLENCODE:test+portoghese.+Edizione+del+06+Febbraio+2015
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: test portoghese. Edizione del 06 Febbraio 2015
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 test+portoghese.+Edizione+del+06+Febbraio+2015&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: test portoghese. Edizione del 06 Febbraio 2015
+[Trace] URLENCODE:test+portoghese.+Edizione+del+06+Febbraio+2015
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: test portoghese. Edizione del 06 Febbraio 2015
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 test+portoghese.+Edizione+del+06+Febbraio+2015&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: test inglese. Edizione del 06 Febbraio 2015
+[Trace] URLENCODE:test+inglese.+Edizione+del+06+Febbraio+2015
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: test inglese. Edizione del 06 Febbraio 2015
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 test+inglese.+Edizione+del+06+Febbraio+2015&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: favole e racconti. Edizione del 06 Febbraio 2015
+[Trace] URLENCODE:favole+e+racconti.+Edizione+del+06+Febbraio+2015
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: favole e racconti. Edizione del 06 Febbraio 2015
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 favole+e+racconti.+Edizione+del+06+Febbraio+2015&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: go fasano. Edizione del 06 Febbraio 2015
+[Trace] URLENCODE:go+fasano.+Edizione+del+06+Febbraio+2015
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: go fasano. Edizione del 06 Febbraio 2015
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 go+fasano.+Edizione+del+06+Febbraio+2015&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: go bari. Edizione del 06 Febbraio 2015
+[Trace] URLENCODE:go+bari.+Edizione+del+06+Febbraio+2015
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: go bari. Edizione del 06 Febbraio 2015
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 go+bari.+Edizione+del+06+Febbraio+2015&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: go bari, pronta per la lettura
+[Trace] URLENCODE:go+bari%2C+pronta+per+la+lettura
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: go bari, pronta per la lettura
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 go+bari%2C+pronta+per+la+lettura&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Navigazione edizioni
+[Trace] URLENCODE:Navigazione+edizioni
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Navigazione edizioni
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Navigazione+edizioni&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: repubblica punto it. Edizione del 06 Febbraio 2015
+[Trace] URLENCODE:repubblica+punto+it.+Edizione+del+06+Febbraio+2015
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: repubblica punto it. Edizione del 06 Febbraio 2015
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 repubblica+punto+it.+Edizione+del+06+Febbraio+2015&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: repubblica punto it. Edizione del 06 Febbraio 2015
+[Trace] URLENCODE:repubblica+punto+it.+Edizione+del+06+Febbraio+2015
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: repubblica punto it. Edizione del 06 Febbraio 2015
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 repubblica+punto+it.+Edizione+del+06+Febbraio+2015&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: radio online. Edizione del 06 Febbraio 2015
+[Trace] URLENCODE:radio+online.+Edizione+del+06+Febbraio+2015
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: radio online. Edizione del 06 Febbraio 2015
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 radio+online.+Edizione+del+06+Febbraio+2015&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: radio online, pronta per la lettura
+[Trace] URLENCODE:radio+online%2C+pronta+per+la+lettura
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: radio online, pronta per la lettura
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 radio+online%2C+pronta+per+la+lettura&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio italiane shoutcast
+[Trace] URLENCODE:Radio+italiane+shoutcast
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio italiane shoutcast
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+italiane+shoutcast&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio italiane shoutcast
+[Trace] URLENCODE:Radio+italiane+shoutcast
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio italiane shoutcast
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+italiane+shoutcast&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio italiane shoutcast
+[Trace] URLENCODE:Radio+italiane+shoutcast
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio italiane shoutcast
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+italiane+shoutcast&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio italiane shoutcast
+[Trace] URLENCODE:Radio+italiane+shoutcast
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio italiane shoutcast
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+italiane+shoutcast&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Sei entrato nella sezione Radio italiane shoutcast
+[Trace] URLENCODE:Sei+entrato+nella+sezione+Radio+italiane+shoutcast
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Sei entrato nella sezione Radio italiane shoutcast
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Sei+entrato+nella+sezione+Radio+italiane+shoutcast&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: repubblica punto it. Edizione del 11 Febbraio 2015
+[Trace] URLENCODE:repubblica+punto+it.+Edizione+del+11+Febbraio+2015
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: repubblica punto it. Edizione del 11 Febbraio 2015
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 repubblica+punto+it.+Edizione+del+11+Febbraio+2015&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: repubblica punto it. Edizione del 19 Febbraio 2015
+[Trace] URLENCODE:repubblica+punto+it.+Edizione+del+19+Febbraio+2015
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: repubblica punto it. Edizione del 19 Febbraio 2015
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 repubblica+punto+it.+Edizione+del+19+Febbraio+2015&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: repubblica punto it. Edizione del 20 Febbraio 2015
+[Trace] URLENCODE:repubblica+punto+it.+Edizione+del+20+Febbraio+2015
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: repubblica punto it. Edizione del 20 Febbraio 2015
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 repubblica+punto+it.+Edizione+del+20+Febbraio+2015&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: radio online. Edizione del 20 Febbraio 2015
+[Trace] URLENCODE:radio+online.+Edizione+del+20+Febbraio+2015
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: radio online. Edizione del 20 Febbraio 2015
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 radio+online.+Edizione+del+20+Febbraio+2015&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: go bari. Edizione del 20 Febbraio 2015
+[Trace] URLENCODE:go+bari.+Edizione+del+20+Febbraio+2015
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: go bari. Edizione del 20 Febbraio 2015
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 go+bari.+Edizione+del+20+Febbraio+2015&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: radio online. Edizione del 20 Febbraio 2015
+[Trace] URLENCODE:radio+online.+Edizione+del+20+Febbraio+2015
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: radio online. Edizione del 20 Febbraio 2015
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 radio+online.+Edizione+del+20+Febbraio+2015&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: radio online, pronta per la lettura
+[Trace] URLENCODE:radio+online%2C+pronta+per+la+lettura
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: radio online, pronta per la lettura
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 radio+online%2C+pronta+per+la+lettura&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio italiane shoutcast
+[Trace] URLENCODE:Radio+italiane+shoutcast
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio italiane shoutcast
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+italiane+shoutcast&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio italiane shoutcast
+[Trace] URLENCODE:Radio+italiane+shoutcast
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio italiane shoutcast
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+italiane+shoutcast&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: repubblica punto it. Edizione del 20 Febbraio 2015
+[Trace] URLENCODE:repubblica+punto+it.+Edizione+del+20+Febbraio+2015
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: repubblica punto it. Edizione del 20 Febbraio 2015
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 repubblica+punto+it.+Edizione+del+20+Febbraio+2015&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: radio online. Edizione del 20 Febbraio 2015
+[Trace] URLENCODE:radio+online.+Edizione+del+20+Febbraio+2015
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: radio online. Edizione del 20 Febbraio 2015
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 radio+online.+Edizione+del+20+Febbraio+2015&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: radio online, pronta per la lettura
+[Trace] URLENCODE:radio+online%2C+pronta+per+la+lettura
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: radio online, pronta per la lettura
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 radio+online%2C+pronta+per+la+lettura&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio italiane
+[Trace] URLENCODE:Radio+italiane
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio italiane
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+italiane&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inglesi
+[Trace] URLENCODE:Radio+inglesi
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inglesi
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inglesi&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio italiane shoutcast
+[Trace] URLENCODE:Radio+italiane+shoutcast
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio italiane shoutcast
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+italiane+shoutcast&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inglesi
+[Trace] URLENCODE:Radio+inglesi
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inglesi
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inglesi&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio italiane
+[Trace] URLENCODE:Radio+italiane
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio italiane
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+italiane&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Sei entrato nella sezione Radio italiane
+[Trace] URLENCODE:Sei+entrato+nella+sezione+Radio+italiane
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Sei entrato nella sezione Radio italiane
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Sei+entrato+nella+sezione+Radio+italiane&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio 105 Network
+[Trace] URLENCODE:Radio+105+Network
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio 105 Network
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+105+Network&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio 24
+[Trace] URLENCODE:Radio+24
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio 24
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+24&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Capital
+[Trace] URLENCODE:Capital
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Capital
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Capital&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Deejay
+[Trace] URLENCODE:Deejay
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Deejay
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Deejay&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio Kiss Kiss
+[Trace] URLENCODE:Radio+Kiss+Kiss
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio Kiss Kiss
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+Kiss+Kiss&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Navigazione sezioni
+[Trace] URLENCODE:Navigazione+sezioni
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Navigazione sezioni
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Navigazione+sezioni&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: repubblica punto it. Edizione del 20 Febbraio 2015
+[Trace] URLENCODE:repubblica+punto+it.+Edizione+del+20+Febbraio+2015
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: repubblica punto it. Edizione del 20 Febbraio 2015
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 repubblica+punto+it.+Edizione+del+20+Febbraio+2015&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: radio online. Edizione del 20 Febbraio 2015
+[Trace] URLENCODE:radio+online.+Edizione+del+20+Febbraio+2015
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: radio online. Edizione del 20 Febbraio 2015
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 radio+online.+Edizione+del+20+Febbraio+2015&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: radio online, pronta per la lettura
+[Trace] URLENCODE:radio+online%2C+pronta+per+la+lettura
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: radio online, pronta per la lettura
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 radio+online%2C+pronta+per+la+lettura&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio italiane
+[Trace] URLENCODE:Radio+italiane
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio italiane
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+italiane&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inglesi
+[Trace] URLENCODE:Radio+inglesi
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inglesi
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inglesi&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Sei entrato nella sezione Radio inglesi
+[Trace] URLENCODE:Sei+entrato+nella+sezione+Radio+inglesi
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Sei entrato nella sezione Radio inglesi
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Sei+entrato+nella+sezione+Radio+inglesi&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: BBC Radio 1
+[Trace] URLENCODE:BBC+Radio+1
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: BBC Radio 1
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 BBC+Radio+1&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Rainbow Radio
+[Trace] URLENCODE:Rainbow+Radio
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Rainbow Radio
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Rainbow+Radio&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Gold
+[Trace] URLENCODE:Gold
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Gold
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Gold&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Jazz FM
+[Trace] URLENCODE:Jazz+FM
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Jazz FM
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Jazz+FM&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Jazz FM
+[Trace] URLENCODE:Jazz+FM
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Jazz FM
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Jazz+FM&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Jazz FM
+[Trace] URLENCODE:Jazz+FM
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Jazz FM
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Jazz+FM&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Navigazione sezioni
+[Trace] URLENCODE:Navigazione+sezioni
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Navigazione sezioni
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Navigazione+sezioni&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio italiane shoutcast
+[Trace] URLENCODE:Radio+italiane+shoutcast
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio italiane shoutcast
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+italiane+shoutcast&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio italiane shoutcast
+[Trace] URLENCODE:Radio+italiane+shoutcast
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio italiane shoutcast
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+italiane+shoutcast&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Sei entrato nella sezione Radio italiane shoutcast
+[Trace] URLENCODE:Sei+entrato+nella+sezione+Radio+italiane+shoutcast
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Sei entrato nella sezione Radio italiane shoutcast
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Sei+entrato+nella+sezione+Radio+italiane+shoutcast&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: 105 Radio
+[Trace] URLENCODE:105+Radio
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: 105 Radio
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 105+Radio&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: RMC
+[Trace] URLENCODE:RMC
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: RMC
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 RMC&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: 105 Classics
+[Trace] URLENCODE:105+Classics
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: 105 Classics
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 105+Classics&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: RMC2
+[Trace] URLENCODE:RMC2
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: RMC2
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 RMC2&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: 105 Hits
+[Trace] URLENCODE:105+Hits
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: 105 Hits
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 105+Hits&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: RMCGreatArtists
+[Trace] URLENCODE:RMCGreatArtists
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: RMCGreatArtists
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 RMCGreatArtists&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: 105 HipHop
+[Trace] URLENCODE:105+HipHop
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: 105 HipHop
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 105+HipHop&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: RMCMonteCarloNightsStory
+[Trace] URLENCODE:RMCMonteCarloNightsStory
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: RMCMonteCarloNightsStory
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 RMCMonteCarloNightsStory&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: RMCNEWCLASSICS
+[Trace] URLENCODE:RMCNEWCLASSICS
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: RMCNEWCLASSICS
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 RMCNEWCLASSICS&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: VIRGINROCK70
+[Trace] URLENCODE:VIRGINROCK70
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: VIRGINROCK70
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 VIRGINROCK70&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: RMCLoveSongs
+[Trace] URLENCODE:RMCLoveSongs
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: RMCLoveSongs
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 RMCLoveSongs&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: COLDPLAY
+[Trace] URLENCODE:COLDPLAY
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: COLDPLAY
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 COLDPLAY&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: 105 House
+[Trace] URLENCODE:105+House
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: 105 House
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 105+House&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: TFERRO
+[Trace] URLENCODE:TFERRO
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: TFERRO
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 TFERRO&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: 105 Latino
+[Trace] URLENCODE:105+Latino
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: 105 Latino
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 105+Latino&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: RMCItalia
+[Trace] URLENCODE:RMCItalia
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: RMCItalia
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 RMCItalia&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: 105 Latino
+[Trace] URLENCODE:105+Latino
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: 105 Latino
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 105+Latino&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: RMCItalia
+[Trace] URLENCODE:RMCItalia
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: RMCItalia
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 RMCItalia&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: 105 Miami
+[Trace] URLENCODE:105+Miami
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: 105 Miami
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 105+Miami&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: LITFIBA
+[Trace] URLENCODE:LITFIBA
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: LITFIBA
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 LITFIBA&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: 105 CLT
+[Trace] URLENCODE:105+CLT
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: 105 CLT
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 105+CLT&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: GIORGIA
+[Trace] URLENCODE:GIORGIA
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: GIORGIA
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 GIORGIA&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: KAYKAY
+[Trace] URLENCODE:KAYKAY
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: KAYKAY
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 KAYKAY&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: PINODANIELE
+[Trace] URLENCODE:PINODANIELE
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: PINODANIELE
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 PINODANIELE&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: JOVANOTTI
+[Trace] URLENCODE:JOVANOTTI
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: JOVANOTTI
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 JOVANOTTI&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: 105 ZUCCHERO
+[Trace] URLENCODE:105+ZUCCHERO
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: 105 ZUCCHERO
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 105+ZUCCHERO&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: none
+[Trace] URLENCODE:none
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: none
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 none&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: FESTIVAL
+[Trace] URLENCODE:FESTIVAL
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: FESTIVAL
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 FESTIVAL&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Anonima
+[Trace] URLENCODE:Anonima
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Anonima
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Anonima&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: 1052 KMORE
+[Trace] URLENCODE:1052+KMORE
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: 1052 KMORE
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 1052+KMORE&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: 105 Generation
+[Trace] URLENCODE:105+Generation
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: 105 Generation
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 105+Generation&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: VirginRadio
+[Trace] URLENCODE:VirginRadio
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: VirginRadio
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 VirginRadio&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: MSLIGABUE
+[Trace] URLENCODE:MSLIGABUE
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: MSLIGABUE
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 MSLIGABUE&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: VirginRockClassic
+[Trace] URLENCODE:VirginRockClassic
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: VirginRockClassic
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 VirginRockClassic&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: VirginHardRock
+[Trace] URLENCODE:VirginHardRock
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: VirginHardRock
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 VirginHardRock&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: RMCMarine
+[Trace] URLENCODE:RMCMarine
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: RMCMarine
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 RMCMarine&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: 105 Story
+[Trace] URLENCODE:105+Story
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: 105 Story
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 105+Story&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Virgin PalestrE
+[Trace] URLENCODE:Virgin+PalestrE
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Virgin PalestrE
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Virgin+PalestrE&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Navigazione sezioni
+[Trace] URLENCODE:Navigazione+sezioni
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Navigazione sezioni
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Navigazione+sezioni&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio italiane shoutcast
+[Trace] URLENCODE:Radio+italiane+shoutcast
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio italiane shoutcast
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+italiane+shoutcast&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Sei entrato nella sezione Radio italiane shoutcast
+[Trace] URLENCODE:Sei+entrato+nella+sezione+Radio+italiane+shoutcast
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Sei entrato nella sezione Radio italiane shoutcast
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Sei+entrato+nella+sezione+Radio+italiane+shoutcast&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: 105 Radio
+[Trace] URLENCODE:105+Radio
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: 105 Radio
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 105+Radio&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: repubblica punto it. Edizione del 22 Febbraio 2015
+[Trace] URLENCODE:repubblica+punto+it.+Edizione+del+22+Febbraio+2015
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: repubblica punto it. Edizione del 22 Febbraio 2015
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 repubblica+punto+it.+Edizione+del+22+Febbraio+2015&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: radio online. Edizione del 22 Febbraio 2015
+[Trace] URLENCODE:radio+online.+Edizione+del+22+Febbraio+2015
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: radio online. Edizione del 22 Febbraio 2015
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 radio+online.+Edizione+del+22+Febbraio+2015&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: go bari. Edizione del 22 Febbraio 2015
+[Trace] URLENCODE:go+bari.+Edizione+del+22+Febbraio+2015
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: go bari. Edizione del 22 Febbraio 2015
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 go+bari.+Edizione+del+22+Febbraio+2015&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: go fasano. Edizione del 22 Febbraio 2015
+[Trace] URLENCODE:go+fasano.+Edizione+del+22+Febbraio+2015
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: go fasano. Edizione del 22 Febbraio 2015
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 go+fasano.+Edizione+del+22+Febbraio+2015&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: go bari. Edizione del 22 Febbraio 2015
+[Trace] URLENCODE:go+bari.+Edizione+del+22+Febbraio+2015
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: go bari. Edizione del 22 Febbraio 2015
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 go+bari.+Edizione+del+22+Febbraio+2015&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: radio online. Edizione del 22 Febbraio 2015
+[Trace] URLENCODE:radio+online.+Edizione+del+22+Febbraio+2015
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: radio online. Edizione del 22 Febbraio 2015
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 radio+online.+Edizione+del+22+Febbraio+2015&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: radio online, pronta per la lettura
+[Trace] URLENCODE:radio+online%2C+pronta+per+la+lettura
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: radio online, pronta per la lettura
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 radio+online%2C+pronta+per+la+lettura&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio italiane
+[Trace] URLENCODE:Radio+italiane
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio italiane
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+italiane&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio italiane
+[Trace] URLENCODE:Radio+italiane
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio italiane
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+italiane&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Sei entrato nella sezione Radio italiane
+[Trace] URLENCODE:Sei+entrato+nella+sezione+Radio+italiane
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Sei entrato nella sezione Radio italiane
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Sei+entrato+nella+sezione+Radio+italiane&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio 105 Network
+[Trace] URLENCODE:Radio+105+Network
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio 105 Network
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+105+Network&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Capital
+[Trace] URLENCODE:Capital
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Capital
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Capital&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Deejay
+[Trace] URLENCODE:Deejay
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Deejay
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Deejay&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio Kiss Kiss
+[Trace] URLENCODE:Radio+Kiss+Kiss
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio Kiss Kiss
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+Kiss+Kiss&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Latte Miele
+[Trace] URLENCODE:Latte+Miele
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Latte Miele
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Latte+Miele&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: M 2 o
+[Trace] URLENCODE:M+2+o
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: M 2 o
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 M+2+o&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio Maria
+[Trace] URLENCODE:Radio+Maria
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio Maria
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+Maria&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio Mater
+[Trace] URLENCODE:Radio+Mater
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio Mater
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+Mater&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Monte Carlo 2
+[Trace] URLENCODE:Monte+Carlo+2
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Monte Carlo 2
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Monte+Carlo+2&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: R 101
+[Trace] URLENCODE:R+101
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: R 101
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 R+101&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio Dimensione Suono
+[Trace] URLENCODE:Radio+Dimensione+Suono
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio Dimensione Suono
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+Dimensione+Suono&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio Radicale
+[Trace] URLENCODE:Radio+Radicale
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio Radicale
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+Radicale&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: RTL 102 e 5
+[Trace] URLENCODE:RTL+102+e+5
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: RTL 102 e 5
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 RTL+102+e+5&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Virgin Radio Italia
+[Trace] URLENCODE:Virgin+Radio+Italia
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Virgin Radio Italia
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Virgin+Radio+Italia&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Rai radio 1 
+[Trace] URLENCODE:Rai+radio+1+
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Rai radio 1 
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Rai+radio+1+&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Rai radio 2 
+[Trace] URLENCODE:Rai+radio+2+
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Rai radio 2 
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Rai+radio+2+&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Rai radio 3 
+[Trace] URLENCODE:Rai+radio+3+
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Rai radio 3 
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Rai+radio+3+&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Rai isoradio 
+[Trace] URLENCODE:Rai+isoradio+
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Rai isoradio 
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Rai+isoradio+&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Rai gr parlamento 
+[Trace] URLENCODE:Rai+gr+parlamento+
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Rai gr parlamento 
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Rai+gr+parlamento+&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Rai gr parlamento 
+[Trace] URLENCODE:Rai+gr+parlamento+
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Rai gr parlamento 
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Rai+gr+parlamento+&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Rai gr parlamento 
+[Trace] URLENCODE:Rai+gr+parlamento+
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Rai gr parlamento 
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Rai+gr+parlamento+&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Rai gr parlamento 
+[Trace] URLENCODE:Rai+gr+parlamento+
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Rai gr parlamento 
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Rai+gr+parlamento+&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Navigazione sezioni
+[Trace] URLENCODE:Navigazione+sezioni
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Navigazione sezioni
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Navigazione+sezioni&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inglesi
+[Trace] URLENCODE:Radio+inglesi
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inglesi
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inglesi&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio italiane shoutcast
+[Trace] URLENCODE:Radio+italiane+shoutcast
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio italiane shoutcast
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+italiane+shoutcast&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Sei entrato nella sezione Radio italiane shoutcast
+[Trace] URLENCODE:Sei+entrato+nella+sezione+Radio+italiane+shoutcast
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Sei entrato nella sezione Radio italiane shoutcast
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Sei+entrato+nella+sezione+Radio+italiane+shoutcast&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: 105 Radio
+[Trace] URLENCODE:105+Radio
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: 105 Radio
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 105+Radio&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: 105 Radio
+[Trace] URLENCODE:105+Radio
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: 105 Radio
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 105+Radio&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: RMC
+[Trace] URLENCODE:RMC
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: RMC
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 RMC&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: 105 Radio
+[Trace] URLENCODE:105+Radio
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: 105 Radio
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 105+Radio&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: RMC
+[Trace] URLENCODE:RMC
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: RMC
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 RMC&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: repubblica punto it. Edizione del 22 Febbraio 2015
+[Trace] URLENCODE:repubblica+punto+it.+Edizione+del+22+Febbraio+2015
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: repubblica punto it. Edizione del 22 Febbraio 2015
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 repubblica+punto+it.+Edizione+del+22+Febbraio+2015&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: radio online. Edizione del 22 Febbraio 2015
+[Trace] URLENCODE:radio+online.+Edizione+del+22+Febbraio+2015
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: radio online. Edizione del 22 Febbraio 2015
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 radio+online.+Edizione+del+22+Febbraio+2015&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: go bari. Edizione del 22 Febbraio 2015
+[Trace] URLENCODE:go+bari.+Edizione+del+22+Febbraio+2015
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: go bari. Edizione del 22 Febbraio 2015
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 go+bari.+Edizione+del+22+Febbraio+2015&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: radio online. Edizione del 22 Febbraio 2015
+[Trace] URLENCODE:radio+online.+Edizione+del+22+Febbraio+2015
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: radio online. Edizione del 22 Febbraio 2015
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 radio+online.+Edizione+del+22+Febbraio+2015&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: radio online, pronta per la lettura
+[Trace] URLENCODE:radio+online%2C+pronta+per+la+lettura
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: radio online, pronta per la lettura
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 radio+online%2C+pronta+per+la+lettura&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio italiane
+[Trace] URLENCODE:Radio+italiane
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio italiane
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+italiane&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inserite manualmente
+[Trace] URLENCODE:Radio+inserite+manualmente
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inserite manualmente
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inserite+manualmente&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio inglesi
+[Trace] URLENCODE:Radio+inglesi
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio inglesi
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+inglesi&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Radio italiane shoutcast
+[Trace] URLENCODE:Radio+italiane+shoutcast
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Radio italiane shoutcast
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Radio+italiane+shoutcast&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: Sei entrato nella sezione Radio italiane shoutcast
+[Trace] URLENCODE:Sei+entrato+nella+sezione+Radio+italiane+shoutcast
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: Sei entrato nella sezione Radio italiane shoutcast
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 Sei+entrato+nella+sezione+Radio+italiane+shoutcast&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: 105 Radio
+[Trace] URLENCODE:105+Radio
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: 105 Radio
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 105+Radio&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: 105 Radio
+[Trace] URLENCODE:105+Radio
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: 105 Radio
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 105+Radio&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: 105 Radio
+[Trace] URLENCODE:105+Radio
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: 105 Radio
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 105+Radio&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: 105 Radio
+[Trace] URLENCODE:105+Radio
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: 105 Radio
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 105+Radio&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: repubblica punto it. Edizione del 22 Febbraio 2015
+[Trace] URLENCODE:repubblica+punto+it.+Edizione+del+22+Febbraio+2015
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: repubblica punto it. Edizione del 22 Febbraio 2015
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 repubblica+punto+it.+Edizione+del+22+Febbraio+2015&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: repubblica punto it. Edizione del 22 Febbraio 2015
+[Trace] URLENCODE:repubblica+punto+it.+Edizione+del+22+Febbraio+2015
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: repubblica punto it. Edizione del 22 Febbraio 2015
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 repubblica+punto+it.+Edizione+del+22+Febbraio+2015&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: radio online. Edizione del 22 Febbraio 2015
+[Trace] URLENCODE:radio+online.+Edizione+del+22+Febbraio+2015
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: radio online. Edizione del 22 Febbraio 2015
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 radio+online.+Edizione+del+22+Febbraio+2015&lang=it&voice=it_1_m&save=1
+[Trace] POST Text: repubblica punto it. Edizione del 22 Febbraio 2015
+[Trace] URLENCODE:repubblica+punto+it.+Edizione+del+22+Febbraio+2015
+[Trace] VOICE: it_1_m
+[Trace] Tingwo: elaborating...
+[Trace] Text: repubblica punto it. Edizione del 22 Febbraio 2015
+[Trace] Tingwo URL: http://webvoice.tingwo.co/inform5643218vox?url=strillone.walks.to&voxtext=\pitch=50 \speed=60 repubblica+punto+it.+Edizione+del+22+Febbraio+2015&lang=it&voice=it_1_m&save=1
