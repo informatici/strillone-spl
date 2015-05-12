@@ -124,7 +124,6 @@ public class HttpHandler extends AsyncTask<RequestParameters, Void, String> {
 		} catch (IOException e) {
 			if (Configuration.DEBUGGABLE) Log.d("HttpHandler", "IOException", e);
 		}
-		
 		return response;
 	}
 	

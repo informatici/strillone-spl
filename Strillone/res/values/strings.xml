@@ -45,8 +45,7 @@
 	<string name="pos_no_article_selected">Nessun articolo selezionato.</string>
 	<string name="pos_article_selected">Articolo: %s.</string>
 	
-	
-	 <!--stringhe michele-->
+
 	<string name="start_voice">Pronuncia un comando per interagire con strillone.</string>
 	<string name="unrecognized_command">Comando non valido.</string>
     <string name="upperLeftString">sali</string>

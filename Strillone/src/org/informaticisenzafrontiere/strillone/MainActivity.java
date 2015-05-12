@@ -8,6 +8,7 @@ import java.util.LinkedList;
 import java.util.Locale;
 
 
+
 import org.informaticisenzafrontiere.strillone.ui.StrilloneButton;
 import org.informaticisenzafrontiere.strillone.ui.StrilloneProgressDialog;
 import org.informaticisenzafrontiere.strillone.util.Configuration;
@@ -16,6 +17,7 @@ import org.informaticisenzafrontiere.strillone.xml.Giornale;
 import org.informaticisenzafrontiere.strillone.xml.Sezione;
 import org.informaticisenzafrontiere.strillone.xml.Testata;
 import org.informaticisenzafrontiere.strillone.xml.Testate;
+
 
 
 import android.media.AudioManager;
@@ -30,6 +32,7 @@ import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.content.res.AssetFileDescriptor;
+import android.graphics.Point;
 import android.speech.RecognitionListener;
 import android.speech.RecognizerIntent;
 import android.speech.tts.TextToSpeech;
@@ -37,6 +40,7 @@ import android.speech.tts.TextToSpeech.OnInitListener;
 //import android.speech.tts.TextToSpeech.OnUtteranceCompletedListener;
 import android.speech.tts.UtteranceProgressListener;
 import android.util.Log;
+import android.view.Display;
 import android.view.GestureDetector;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -49,7 +53,7 @@ import android.widget.LinearLayout;
 import android.widget.Toast;
 import 	android.speech.SpeechRecognizer;
 
-
+//,GestureDetector.OnGestureListener
 
 public class MainActivity extends Activity implements IMainActivity, OnInitListener, Handler.Callback, RecognitionListener,GestureDetector.OnGestureListener, OnTouchListener  {
 	
@@ -76,6 +80,7 @@ public class MainActivity extends Activity implements IMainActivity, OnInitListe
 	
 	private Testate testate;
 	private Giornale giornale;
+
 	
 	private NavigationLevel navigationLevel;
 	private int iTestata;
@@ -117,7 +122,8 @@ public class MainActivity extends Activity implements IMainActivity, OnInitListe
     private HashMap<String, String> params = new HashMap<String, String>(); //textToSpeech.speak function parameter
 	
 
-    @SuppressLint({ "NewApi", "ClickableViewAccessibility" }) public void onCreate(Bundle savedInstanceState) {
+    @SuppressLint({ "NewApi", "ClickableViewAccessibility" })
+    public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
      
@@ -126,16 +132,13 @@ public class MainActivity extends Activity implements IMainActivity, OnInitListe
         this.lowerLeftButton = getLowerLeftButton();
         this.lowerRightButton = getLowerRightButton();
         
+        View view=(View)findViewById(R.id.touchView); 
+        view.setOnTouchListener(this);
+        mDetector = new GestureDetector(this,this);
         
-        this.upperLeftButton.setOnTouchListener(this);
-        this.upperRightButton.setOnTouchListener(this);
-        this.lowerLeftButton.setOnTouchListener(this);
-        this.lowerRightButton.setOnTouchListener(this);
         
         speechRecognizer = SpeechRecognizer.createSpeechRecognizer(getApplicationContext()); // create the speech recognizer.
-       
-        
-        mDetector = new GestureDetector(this,this);
+        createMicrophone(); 
         
         
         MainActivity.this.params.put(TextToSpeech.Engine.KEY_PARAM_UTTERANCE_ID,"Strillone"); //add the parametrer 
@@ -182,6 +185,8 @@ public class MainActivity extends Activity implements IMainActivity, OnInitListe
 			public boolean onLongClick(View v) { 
 		     //createListener(); //to launch speech recognizer
 			 //tasto non utilizzato
+			
+				
 		    return true;
 			}
 		});
@@ -291,7 +296,7 @@ public class MainActivity extends Activity implements IMainActivity, OnInitListe
 			this.sentences.clear();
 		}
 		this.textToSpeech.stop();
-		if (SpeechRecognizer.isRecognitionAvailable(getApplicationContext())) this.speechRecognizer.stopListening();
+		if (SpeechRecognizer.isRecognitionAvailable(getApplicationContext())) {this.speechRecognizer.stopListening(); this.speechRecognizer.destroy();} //mod miky
 		
 		// Rilascia il controllo sullo standby.
 		this.wakeLock.release();
@@ -302,7 +307,7 @@ public class MainActivity extends Activity implements IMainActivity, OnInitListe
 	protected void onDestroy() {
 		if (Configuration.DEBUGGABLE) Log.d(TAG, "onDestroy()");
 		this.textToSpeech.shutdown();
-		if (SpeechRecognizer.isRecognitionAvailable(getApplicationContext())) this.speechRecognizer.stopListening(); //mod miky
+		if (SpeechRecognizer.isRecognitionAvailable(getApplicationContext())) {this.speechRecognizer.stopListening(); this.speechRecognizer.destroy();} //mod miky
 		super.onDestroy();
 	}
 
@@ -346,6 +351,7 @@ public class MainActivity extends Activity implements IMainActivity, OnInitListe
 	    }
 	}
 
+	//tasto sali
 	public void performUpperLeftAction(View v) {
     	if (this.textToSpeech.isSpeaking()) {
     		// Se è un testo "splitted" perché troppo lungo, svuota
@@ -385,12 +391,14 @@ public class MainActivity extends Activity implements IMainActivity, OnInitListe
     	}
     }
     
+	//tasto entra
     public void performLowerLeftAction(View v) {
     	switch (this.navigationLevel) {
 			case TESTATE:
 				if (this.iTestata >= 0) {
 					// Seleziona la testata.
 					startProgressDialog(String.format(getString(R.string.connecting_newspaper), this.testate.getTestate().get(this.iTestata).getNome()));
+					
 					this.mainPresenter.downloadGiornale();
 					
 //					this.lowerEndSezioni = true;
@@ -441,6 +449,7 @@ public class MainActivity extends Activity implements IMainActivity, OnInitListe
     	
     }
     
+    //tasto precedente
     public void performUpperRightAction(View v) {
     	switch (this.navigationLevel) {
 			case TESTATE:
@@ -538,6 +547,7 @@ public class MainActivity extends Activity implements IMainActivity, OnInitListe
     	
     }
     
+    // tasto successivo 
     public void performLowerRightAction(View v) {  
     	switch (this.navigationLevel) {
 			case TESTATE:
@@ -784,15 +794,17 @@ public class MainActivity extends Activity implements IMainActivity, OnInitListe
 	
 	@Override
 	public void onReadyForSpeech(Bundle params) {
-				/*if (accessibilityEnabled) Toast.makeText(MainActivity.this, R.string.startRecognizer ,Toast.LENGTH_SHORT).show();
-										  else showMicrophone();*/
 		showMicrophone();
 		if (Configuration.DEBUGGABLE) Log.i(TAG, "Ready for speech.");	
 	}
 	
-	public void showMicrophone(){
-		microphone = (ImageView) findViewById(R.id.Microphone);
+	public void createMicrophone(){
+		microphone = (ImageView) findViewById(R.id.microphoneImage);
 		microphone.setImageResource(R.drawable.microfono);
+		microphone.setVisibility(View.INVISIBLE);
+	}
+	
+	public void showMicrophone(){
 		microphone.setVisibility(View.VISIBLE);
 	}
 	
@@ -823,7 +835,6 @@ public class MainActivity extends Activity implements IMainActivity, OnInitListe
 	@Override
 	public void onEndOfSpeech() {
 		if (Configuration.DEBUGGABLE) Log.i(TAG, "End of speech");
-		//if (!accessibilityEnabled) hideMicrophone(); //hide microphone's icon if talkback is off.
 		hideMicrophone();
 	}
 
@@ -831,6 +842,7 @@ public class MainActivity extends Activity implements IMainActivity, OnInitListe
 
 	@Override
 	public void onError(int error) {
+	  if (Configuration.DEBUGGABLE) {
 		   String strerror=null;
    		   switch (error){
            case 1: strerror="Network operation timed out."; break;
@@ -843,18 +855,18 @@ public class MainActivity extends Activity implements IMainActivity, OnInitListe
            case 8: strerror="RecognitionService busy."; break;
            case 9: strerror="Insufficient permissions."; break;
            }
-   		    if (Configuration.DEBUGGABLE) Log.e(TAG, "Errore: "+error+" "+strerror);
-           speechRecognizer.destroy();
-           //Toast.makeText(MainActivity.this, "Error: "+error+" "+strerror ,Toast.LENGTH_SHORT).show();
+   		   Log.e(TAG, "Errore: "+error+" "+strerror);
+	  	  }
+   		   speechRecognizer.destroy();
            if (error==7) createListener(); //on error "7" restart the listener.
  	}
 
 	@Override
 	public void onResults(Bundle results) {
+		//strategy
 		ArrayList<String> words;
 		String command=null;
 		words = results.getStringArrayList(SpeechRecognizer.RESULTS_RECOGNITION);
-		if (Configuration.DEBUGGABLE) Log.d(TAG, words.get(0));
 		command=words.get(0);
 		 if (command.equalsIgnoreCase(getResources().getString(R.string.upperLeftString))) performUpperLeftAction(upperLeftButton);
 	   		else if (command.equalsIgnoreCase(getResources().getString(R.string.upperRightString))) performUpperRightAction(upperRightButton);
@@ -863,7 +875,6 @@ public class MainActivity extends Activity implements IMainActivity, OnInitListe
 	   					else if (command.equalsIgnoreCase(getResources().getString(R.string.close))) {speechRecognizer.destroy();speechRecognizerOn=false;}
 	   						else if (command.equalsIgnoreCase(getResources().getString(R.string.close_exit))) {speechRecognizer.destroy();MainActivity.this.finish();speechRecognizerOn=false;}
 	   							else MainActivity.this.textToSpeech.speak(getResources().getString(R.string.unrecognized_command), TextToSpeech.QUEUE_FLUSH, params);	
-		 //Toast.makeText(MainActivity.this, "pronunciarto: " + command,Toast.LENGTH_SHORT).show();
 		 speechRecognizer.destroy();  
 	}
 
@@ -882,6 +893,7 @@ public class MainActivity extends Activity implements IMainActivity, OnInitListe
 	}
 	
 	public void createListener(){	
+		 this.textToSpeech.stop();
 		 Toast.makeText(MainActivity.this, R.string.startRecognizer ,Toast.LENGTH_SHORT).show();
 		 speechRecognizerOn=true;
 	     speechRecognizer.setRecognitionListener(MainActivity.this);
@@ -892,8 +904,7 @@ public class MainActivity extends Activity implements IMainActivity, OnInitListe
 
 	@Override 
 	public boolean onTouchEvent(MotionEvent event){ 
-	this.mDetector.onTouchEvent(event);
-	//return super.onTouchEvent(event);
+	
 	return false;
 	}
 	
@@ -911,7 +922,27 @@ public class MainActivity extends Activity implements IMainActivity, OnInitListe
 
 	@Override
 	public boolean onSingleTapUp(MotionEvent e) {
-		// TODO Auto-generated method stub
+		float x=e.getX();
+		float y=e.getY();
+		int button=detectButton(x,y);
+		switch (button) {
+		case Configuration.UPPERLEFTBUTTON: 
+			upperLeftButton.performClick();  
+			upperLeftButton.performHapticFeedback(3); 
+			break;
+		case Configuration.UPPERRIGHTBUTTON: 
+			upperRightButton.performClick(); 
+			upperRightButton.performHapticFeedback(3);
+			break;
+		case Configuration.LOWERLEFTBUTTON: 
+			lowerLeftButton.performClick();  
+			lowerLeftButton.performHapticFeedback(3); 
+			break;
+		case Configuration.LOWERRIGHTBUTTON: 
+			lowerRightButton.performClick(); 
+			lowerRightButton.performHapticFeedback(3); 
+			break;
+		}	
 		return false;
 	}
 
@@ -924,10 +955,30 @@ public class MainActivity extends Activity implements IMainActivity, OnInitListe
 
 	@Override
 	public void onLongPress(MotionEvent e) {
-		// TODO Auto-generated method stub
-		
+		float x=e.getX();
+		float y=e.getY();
+		int button=detectButton(x,y);
+		switch (button) {
+		case Configuration.UPPERLEFTBUTTON: 
+			upperLeftButton.performLongClick(); 
+			upperLeftButton.performHapticFeedback(3); 
+			break;
+		case Configuration.UPPERRIGHTBUTTON: 
+			upperRightButton.performLongClick(); 
+			upperRightButton.performHapticFeedback(3); 
+			break;
+		case Configuration.LOWERLEFTBUTTON: 
+			lowerLeftButton.performLongClick(); 
+			lowerLeftButton.performHapticFeedback(3); 
+			break;
+		case Configuration.LOWERRIGHTBUTTON: 
+			lowerRightButton.performLongClick(); 
+			lowerRightButton.performHapticFeedback(3); 
+			break;
+		}	
 	}
 
+	
 	@Override
 	public boolean onFling(MotionEvent e1, MotionEvent e2, float velocityX,
 		float velocityY) {
@@ -950,12 +1001,18 @@ public class MainActivity extends Activity implements IMainActivity, OnInitListe
 	
 	 @Override
 	public boolean onTouch(View v, MotionEvent event) {
-		this.mDetector.onTouchEvent(event);	
-		return false;
-		//return false;// con false funzionano le gesture e i bottoni
+		int index = event.getActionIndex();
+		int pointerId = event.getPointerId(index)+1;
+		  switch (event.getAction() & MotionEvent.ACTION_MASK) { 
+		    case MotionEvent.ACTION_POINTER_UP:	
+		    {  
+		    if (pointerId==3){Toast.makeText(MainActivity.this, "Multitap con 3 dita." ,Toast.LENGTH_SHORT).show();Log.i(TAG,"multitap detected");}  
+		    }
+		}
+		this.mDetector.onTouchEvent(event);
+	 return true;
 	}
-	
-	
+		
 /* TODO	public boolean getAccessibilityEnabled(){
 		boolean accessibilityFound = false;
 		 try {
@@ -968,6 +1025,30 @@ public class MainActivity extends Activity implements IMainActivity, OnInitListe
 		 return accessibilityFound;
 	}*/
 
-		
+     @SuppressLint("NewApi") 
+     public int detectButton(float x,float y){
+	 Display display = getWindowManager().getDefaultDisplay();
+	 Point size = new Point();
+	 display.getSize(size);
+	 int width = size.x;
+	 int height = size.y;	
+	 int halfwidth = width/2;
+	 int halfheight = height/2;
+	 int button=0;
+	 if ((x<halfwidth) && (y<halfheight)) {
+		 button=1;
+	 }
+	 if ((x>halfwidth) && (y<halfheight)) {
+		 button=2;
+	 }
+	 if ((x<halfwidth) && (y>halfheight)) {
+		 button=3;
+	 }
+	 if ((x>halfwidth) && (y>halfheight)) {
+		 button=4;
+	 }
+	 return button;
+	 }
+
 }
 

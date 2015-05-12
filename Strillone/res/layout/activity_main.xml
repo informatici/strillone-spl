@@ -57,9 +57,14 @@
 		    
 		</LinearLayout>
 	</LinearLayout>
-	
+    <View
+        android:id="@+id/touchView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" />
     
 	<ImageView android:id="@+id/navigationArrowsImageView" android:layout_width="200dip" android:layout_height="200dip" android:src="@drawable/marchi" android:layout_centerInParent="true" />
 	
-	<ImageView android:id="@+id/Microphone"  android:layout_width="250dip" android:layout_height="250dip" android:src="@drawable/marchi" android:layout_centerInParent="true"></ImageView>
+	<ImageView android:id="@+id/microphoneImage"  android:layout_width="200dip" android:layout_height="200dip" android:src="@drawable/marchi" android:layout_centerInParent="true"></ImageView>
 </RelativeLayout>

@@ -44,4 +44,15 @@
 	<string name="pos_section_selected">Section: %s.\u0020</string>
 	<string name="pos_no_article_selected">No selected article.</string>
 	<string name="pos_article_selected">Article: %s.</string>
+	
+	<string name="start_voice">Say a command to interact with strillone.</string>
+	<string name="unrecognized_command">Invalid command.</string>
+    <string name="upperLeftString">up</string>
+	<string name="upperRightString">previous</string>
+	<string name="lowerLeftString">enter</string>
+	<string name="lowerRightString">next</string>
+	<string name="close">close</string>
+	<string name="close_exit">exit</string>
+	<string name="startRecognizer">Speech recognition started.</string>
+	
 </resources>
