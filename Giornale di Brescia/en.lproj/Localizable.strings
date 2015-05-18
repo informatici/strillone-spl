@@ -1,0 +1,36 @@
+/* 
+  Localizable.strings
+  Strillone
+
+  Created by Emiliano Auricchio on 30/05/13.
+  Copyright (c) 2013 Informatici Senza Frontiere. All rights reserved.
+*/
+
+"app_name"="Paperboy";
+"title_activity_main"="Paperboy";
+
+"menu_settings"="Settings";
+
+"init_ok"="Initialization successful.";
+"init_ko"="Initialization error.";
+"nav_home"="Start browsing";
+"nav_enter_section"="You entered the %@";
+"nav_closing_app"="Closing application.";
+"nav_read_success"="%@ %@ is ready for reading.";
+"nav_go_testate"="Browsing headings.";
+"nav_go_sezioni"="Browsing sections.";
+
+"connecting_headers"="Reading headings";
+"connecting_newspaper"="Reading %@";
+"connecting_error"="Server connection error.";
+"connecting_error_reading_newspaper"="Error reading heading.";
+"datanotavailable"="Data not yet available.";
+"caricamentoincorso"="Loading...";
+
+"help_text"="Paperboy is an application by Informatici Senza Frontiere which helps to listen, on your smartphone, to the news of your favourite newspaper by means of the integrated vocal synthesis. Using Paperboy is fast and easy. Holding the phone or tablet in your hands identify the four corners of the screen. An action is associated to each corner. Upper left corner. Tap shortly this corner to go back to the previous level. If you are listening to an article, touch this button to stop the audio. Touching again will return to the sections of the newspaper, and so on. If you wish to close Paperboy press longer this button and the application will close. Lower left corner. Touch shortly to go to the next level. If, for example, you are navigating the sections of the newspaper, touching this corner will enter the list of articles of the section. Touching again will read the article. If you want to listen to this guide again long press this button. Upper right corner. Touch shortly to navigate from a section or an article to the previous. Lower right corner. Touch shortly to navigate from a section or an article to the next.";
+
+"cdupperleft"="Up";
+"cdupperright"="Previous";
+"cdlowerleft"="Enter";
+"cdlowerright"="Next";
+
