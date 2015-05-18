@@ -9,6 +9,9 @@ import java.util.Locale;
 
 
 
+
+
+
 import org.informaticisenzafrontiere.strillone.ui.StrilloneButton;
 import org.informaticisenzafrontiere.strillone.ui.StrilloneProgressDialog;
 import org.informaticisenzafrontiere.strillone.util.Configuration;
@@ -17,6 +20,10 @@ import org.informaticisenzafrontiere.strillone.xml.Giornale;
 import org.informaticisenzafrontiere.strillone.xml.Sezione;
 import org.informaticisenzafrontiere.strillone.xml.Testata;
 import org.informaticisenzafrontiere.strillone.xml.Testate;
+
+
+
+
 
 
 
@@ -32,12 +39,12 @@ import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.content.res.AssetFileDescriptor;
+import android.graphics.Color;
 import android.graphics.Point;
 import android.speech.RecognitionListener;
 import android.speech.RecognizerIntent;
 import android.speech.tts.TextToSpeech;
 import android.speech.tts.TextToSpeech.OnInitListener;
-//import android.speech.tts.TextToSpeech.OnUtteranceCompletedListener;
 import android.speech.tts.UtteranceProgressListener;
 import android.util.Log;
 import android.view.Display;
@@ -92,6 +99,10 @@ public class MainActivity extends Activity implements IMainActivity, OnInitListe
 	private int maxArticoli;
 	
 	private ImageView microphone;
+	private ImageView logo;
+	
+	private View view; 
+	//private View opview; 
 	
 	
 	// Stabilisce se ci si trova all'inizio della navigazione delle testate.
@@ -126,16 +137,21 @@ public class MainActivity extends Activity implements IMainActivity, OnInitListe
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-     
+                
+        
         this.upperLeftButton = getUpperLeftButton();
         this.upperRightButton = getUpperRightButton();
         this.lowerLeftButton = getLowerLeftButton();
         this.lowerRightButton = getLowerRightButton();
         
-        View view=(View)findViewById(R.id.touchView); 
+        view=(View)findViewById(R.id.touchView); 
         view.setOnTouchListener(this);
         mDetector = new GestureDetector(this,this);
         
+        //opview=(View)findViewById(R.id.opView);
+        view.setBackgroundColor(Color.BLACK);
+        view.setAlpha(0);
+        logo = (ImageView) findViewById(R.id.navigationArrowsImageView);
         
         speechRecognizer = SpeechRecognizer.createSpeechRecognizer(getApplicationContext()); // create the speech recognizer.
         createMicrophone(); 
@@ -185,7 +201,6 @@ public class MainActivity extends Activity implements IMainActivity, OnInitListe
 			public boolean onLongClick(View v) { 
 		     //createListener(); //to launch speech recognizer
 			 //tasto non utilizzato
-			
 				
 		    return true;
 			}
@@ -800,16 +815,19 @@ public class MainActivity extends Activity implements IMainActivity, OnInitListe
 	
 	public void createMicrophone(){
 		microphone = (ImageView) findViewById(R.id.microphoneImage);
-		microphone.setImageResource(R.drawable.microfono);
 		microphone.setVisibility(View.INVISIBLE);
 	}
 	
-	public void showMicrophone(){
+	@SuppressLint("NewApi") public void showMicrophone(){
 		microphone.setVisibility(View.VISIBLE);
+		view.setAlpha(0.8f);
+		logo.setAlpha(0.4f);
 	}
 	
-	public void hideMicrophone(){
+	@SuppressLint("NewApi") public void hideMicrophone(){
 		microphone.setVisibility(View.INVISIBLE);
+		view.setAlpha(0);
+		logo.setAlpha(1f);
 	}
 
 	@Override
@@ -858,6 +876,7 @@ public class MainActivity extends Activity implements IMainActivity, OnInitListe
    		   Log.e(TAG, "Errore: "+error+" "+strerror);
 	  	  }
    		   speechRecognizer.destroy();
+   		   hideMicrophone();
            if (error==7) createListener(); //on error "7" restart the listener.
  	}
 
@@ -988,13 +1007,13 @@ public class MainActivity extends Activity implements IMainActivity, OnInitListe
 		// se è maggiore offset di X considero solo da destra a sinistra e da sinistra a destra. 
 		// se è maggiore offset di Y considero solo da su a giu e da giu a su
 		if (offsetX>offsetY) {  if(e1.getX() - e2.getX() > SWIPE_MIN_DISTANCE && Math.abs(velocityX) > SWIPE_THRESHOLD_VELOCITY) {
-								createListener(); result=true; }  
+								speechRecognizer.destroy();speechRecognizerOn=false; hideMicrophone(); result=true; }  
 								else if (e2.getX() - e1.getX() > SWIPE_MIN_DISTANCE && Math.abs(velocityX) > SWIPE_THRESHOLD_VELOCITY) {
-								createListener(); result=true; }} 
+									createListener();  result=true; }} 
 						else {  if(e1.getY() - e2.getY() > SWIPE_MIN_DISTANCE && Math.abs(velocityY) > SWIPE_THRESHOLD_VELOCITY) {
-								createListener(); result=true;}
+								/*createListener();*/ result=true;}
 								else if (e2.getY() - e1.getY() > SWIPE_MIN_DISTANCE && Math.abs(velocityY) > SWIPE_THRESHOLD_VELOCITY) {
-								createListener(); result=true; }}
+								/*createListener();*/ result=true; }}
 		return result;
 	}
 
