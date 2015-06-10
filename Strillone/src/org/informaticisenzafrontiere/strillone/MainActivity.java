@@ -7,11 +7,6 @@ import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.Locale;
 
-
-
-
-
-
 import org.informaticisenzafrontiere.strillone.ui.StrilloneButton;
 import org.informaticisenzafrontiere.strillone.ui.StrilloneProgressDialog;
 import org.informaticisenzafrontiere.strillone.util.Configuration;
@@ -20,12 +15,6 @@ import org.informaticisenzafrontiere.strillone.xml.Giornale;
 import org.informaticisenzafrontiere.strillone.xml.Sezione;
 import org.informaticisenzafrontiere.strillone.xml.Testata;
 import org.informaticisenzafrontiere.strillone.xml.Testate;
-
-
-
-
-
-
 
 import android.media.AudioManager;
 import android.media.MediaPlayer;
@@ -60,7 +49,7 @@ import android.widget.LinearLayout;
 import android.widget.Toast;
 import 	android.speech.SpeechRecognizer;
 
-//,GestureDetector.OnGestureListener
+
 
 public class MainActivity extends Activity implements IMainActivity, OnInitListener, Handler.Callback, RecognitionListener,GestureDetector.OnGestureListener, OnTouchListener  {
 	
@@ -99,11 +88,8 @@ public class MainActivity extends Activity implements IMainActivity, OnInitListe
 	private int maxArticoli;
 	
 	private ImageView microphone;
-	private ImageView logo;
 	
-	private View view; 
-	//private View opview; 
-	
+	private View view; 	
 	
 	// Stabilisce se ci si trova all'inizio della navigazione delle testate.
 	private boolean lowerEndTestate;
@@ -127,7 +113,6 @@ public class MainActivity extends Activity implements IMainActivity, OnInitListe
 		this.mainPresenter = new MainPresenter(this);
 	}
 	
-	//private boolean accessibilityEnabled=false;
 	private SpeechRecognizer speechRecognizer; // the speech recognizer
     private boolean speechRecognizerOn=false;  // state of the speech recognizer. 
     private HashMap<String, String> params = new HashMap<String, String>(); //textToSpeech.speak function parameter
@@ -147,11 +132,9 @@ public class MainActivity extends Activity implements IMainActivity, OnInitListe
         view=(View)findViewById(R.id.touchView); 
         view.setOnTouchListener(this);
         mDetector = new GestureDetector(this,this);
-        
-        //opview=(View)findViewById(R.id.opView);
         view.setBackgroundColor(Color.BLACK);
         view.setAlpha(0);
-        logo = (ImageView) findViewById(R.id.navigationArrowsImageView);
+        
         
         speechRecognizer = SpeechRecognizer.createSpeechRecognizer(getApplicationContext()); // create the speech recognizer.
         createMicrophone(); 
@@ -199,9 +182,16 @@ public class MainActivity extends Activity implements IMainActivity, OnInitListe
         this.lowerRightButton.setOnLongClickListener(new View.OnLongClickListener() {
 			@Override
 			public boolean onLongClick(View v) { 
-		     //createListener(); //to launch speech recognizer
+		    
 			 //tasto non utilizzato
 				
+			//Log.i(TAG,"prova "+navigationLevel);
+			int k=-1;
+			 while ((k<MainActivity.this.testate.getTestate().size()-1)) {
+	    		 k++;
+	    		 Log.i(TAG,"prova "+ MainActivity.this.testate.getTestate().get(k).getNome());
+	    		 }
+			
 		    return true;
 			}
 		});
@@ -262,7 +252,6 @@ public class MainActivity extends Activity implements IMainActivity, OnInitListe
 		this.wakeLock = pm.newWakeLock(PowerManager.SCREEN_DIM_WAKE_LOCK, TAG);
         
         this.textToSpeech = new TextToSpeech(this, this);
-        //this.textToSpeech.setOnUtteranceCompletedListener(this);
         textToSpeech.setOnUtteranceProgressListener(utteranceProgressListener);
         
     }
@@ -821,13 +810,11 @@ public class MainActivity extends Activity implements IMainActivity, OnInitListe
 	@SuppressLint("NewApi") public void showMicrophone(){
 		microphone.setVisibility(View.VISIBLE);
 		view.setAlpha(0.8f);
-		logo.setAlpha(0.4f);
 	}
 	
 	@SuppressLint("NewApi") public void hideMicrophone(){
 		microphone.setVisibility(View.INVISIBLE);
 		view.setAlpha(0);
-		logo.setAlpha(1f);
 	}
 
 	@Override
@@ -860,21 +847,17 @@ public class MainActivity extends Activity implements IMainActivity, OnInitListe
 
 	@Override
 	public void onError(int error) {
-	  if (Configuration.DEBUGGABLE) {
-		   String strerror=null;
-   		   switch (error){
-           case 1: strerror="Network operation timed out."; break;
-           case 2: strerror="Other network related errors."; break;
-           case 3: strerror="Audio recording error."; break;
-           case 4: strerror="Server sends error status."; break;
-           case 5: strerror="Other client side errors."; break;
-           case 6: strerror="No speech input"; break;
-           case 7: strerror="No recognition result matched."; break;
-           case 8: strerror="RecognitionService busy."; break;
-           case 9: strerror="Insufficient permissions."; break;
-           }
-   		   Log.e(TAG, "Errore: "+error+" "+strerror);
-	  	  }
+		/* 
+		 1 Network operation timed out
+         2 Other network related errors
+         3 Audio recording error
+         4 Server sends error status
+         5 Other client side errors
+         6 No speech input
+         7 No recognition result matched
+         8 RecognitionService busy
+         9 Insufficient permissions
+         */  
    		   speechRecognizer.destroy();
    		   hideMicrophone();
            if (error==7) createListener(); //on error "7" restart the listener.
@@ -882,7 +865,6 @@ public class MainActivity extends Activity implements IMainActivity, OnInitListe
 
 	@Override
 	public void onResults(Bundle results) {
-		//strategy
 		ArrayList<String> words;
 		String command=null;
 		words = results.getStringArrayList(SpeechRecognizer.RESULTS_RECOGNITION);
@@ -893,8 +875,9 @@ public class MainActivity extends Activity implements IMainActivity, OnInitListe
 	   				else if (command.equalsIgnoreCase(getResources().getString(R.string.lowerRightString))) performLowerRightAction(lowerRightButton);
 	   					else if (command.equalsIgnoreCase(getResources().getString(R.string.close))) {speechRecognizer.destroy();speechRecognizerOn=false;}
 	   						else if (command.equalsIgnoreCase(getResources().getString(R.string.close_exit))) {speechRecognizer.destroy();MainActivity.this.finish();speechRecognizerOn=false;}
-	   							else MainActivity.this.textToSpeech.speak(getResources().getString(R.string.unrecognized_command), TextToSpeech.QUEUE_FLUSH, params);	
-		 speechRecognizer.destroy();  
+	   						 else if (getFromVoice(command));
+	   						 	else MainActivity.this.textToSpeech.speak(getResources().getString(R.string.unrecognized_command), TextToSpeech.QUEUE_FLUSH, params);	
+		speechRecognizer.destroy();  
 	}
 
 	
@@ -913,7 +896,6 @@ public class MainActivity extends Activity implements IMainActivity, OnInitListe
 	
 	public void createListener(){	
 		 this.textToSpeech.stop();
-		 Toast.makeText(MainActivity.this, R.string.startRecognizer ,Toast.LENGTH_SHORT).show();
 		 speechRecognizerOn=true;
 	     speechRecognizer.setRecognitionListener(MainActivity.this);
 	     final Intent intent = new Intent(RecognizerIntent.ACTION_RECOGNIZE_SPEECH);
@@ -1068,6 +1050,40 @@ public class MainActivity extends Activity implements IMainActivity, OnInitListe
 	 }
 	 return button;
 	 }
-
+     
+     public boolean getFromVoice(String name) { 
+    	 boolean trovato=false;
+    	 int k=-1;
+    	 switch (this.navigationLevel) {
+    	 case TESTATE:
+    	 {
+    	 while ((k<MainActivity.this.testate.getTestate().size()-1) && (!trovato)) {
+    		 k++;
+    		 if ((MainActivity.this.testate.getTestate().get(k).getNome().equalsIgnoreCase(name))||
+ 					(MainActivity.this.testate.getTestate().get(k).getNome().contains(name)) &&
+ 					  (name.length()>=(MainActivity.this.testate.getTestate().get(k).getNome().length()/3))
+ 					)trovato=true;
+     	 }
+ 			if (trovato){ MainActivity.this.iTestata=k;
+ 			lowerLeftButton.performClick();
+ 			}
+ 	     } break;
+    	 case SEZIONI:
+    	 {
+    	 	while ((k<MainActivity.this.giornale.getSezioni().size()-1) && (!trovato)) {
+    		k++;
+    			   if (MainActivity.this.giornale.getSezioni().get(k).getNome().equalsIgnoreCase(name))
+    			       trovato=true;
+    			}
+    			if (trovato){ MainActivity.this.iSezione=k;
+    			lowerLeftButton.performClick();
+    			}
+       	 } break;
+    	default: break;
+    	 }
+    return trovato;
+     }
+     
+    
 }
 
