@@ -11,7 +11,11 @@ import org.informaticisenzafrontiere.strillone.ui.StrilloneButton;
 import org.informaticisenzafrontiere.strillone.ui.StrilloneProgressDialog;
 import org.informaticisenzafrontiere.strillone.util.Configuration;
 import org.informaticisenzafrontiere.strillone.xml.Articolo;
+import org.informaticisenzafrontiere.strillone.xml.ArticoloBookmark;
+import org.informaticisenzafrontiere.strillone.xml.Bookmark;
+import org.informaticisenzafrontiere.strillone.xml.FileBookmarks;
 import org.informaticisenzafrontiere.strillone.xml.Giornale;
+import org.informaticisenzafrontiere.strillone.xml.GiornaleBookmark;
 import org.informaticisenzafrontiere.strillone.xml.Sezione;
 import org.informaticisenzafrontiere.strillone.xml.Testata;
 import org.informaticisenzafrontiere.strillone.xml.Testate;
@@ -48,6 +52,7 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.Toast;
 import 	android.speech.SpeechRecognizer;
+import java.text.ParseException;
 
 
 
@@ -86,6 +91,15 @@ public class MainActivity extends Activity implements IMainActivity, OnInitListe
 	private int maxTestate;
 	private int maxSezioni;
 	private int maxArticoli;
+	
+	private Testate oldTestate;
+	private Testate testateBookmarks;
+	
+	private String bookmarksPath;
+	private final FileBookmarks fileBookmarks = new FileBookmarks();
+    private Bookmark readBookmarks= new Bookmark();
+    
+    private boolean modeBookmarks=false;
 	
 	private ImageView microphone;
 	
@@ -140,6 +154,22 @@ public class MainActivity extends Activity implements IMainActivity, OnInitListe
         createMicrophone(); 
         
         
+        try {
+        	bookmarksPath=getFilesDir().getPath() + "/bookmark.xml";
+        	fileBookmarks.createFileBookmarks(bookmarksPath);
+
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+        final FileBookmarks fileBookmarks = new FileBookmarks();
+		final Bookmark bookmark = fileBookmarks.readBookmark(bookmarksPath);
+		boolean updateFile=bookmark.deleteOldArticoli();
+		if (updateFile)
+			fileBookmarks.writeBookmark(bookmarksPath, bookmark);
+        
+        
         MainActivity.this.params.put(TextToSpeech.Engine.KEY_PARAM_UTTERANCE_ID,"Strillone"); //add the parametrer 
         
         this.upperLeftButton.setOnLongClickListener(new View.OnLongClickListener() {	
@@ -169,32 +199,129 @@ public class MainActivity extends Activity implements IMainActivity, OnInitListe
 				// Se Ã¨ un testo "splitted" perchÃ© troppo lungo, svuota
 	    		// la code dei messaggi in modo che allo stop non venga
 	    		// riprodotto il messaggio successivo.
-	    		if (MainActivity.this.sentences != null)
+	    		/*if (MainActivity.this.sentences != null)
 	    			MainActivity.this.sentences.clear();
 				
 				MainActivity.this.textToSpeech.stop();
 				MainActivity.this.textToSpeech.speak(getResources().getString(R.string.help_text), TextToSpeech.QUEUE_FLUSH, params);
+				*/
+				
+				if (!modeBookmarks){
+	                try {
+						openBookmarks();
+					} catch (Exception e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}
+	                }
+	                else closeBookmarks();
 				
 				return true;
 			}
 		});
         
+        
         this.lowerRightButton.setOnLongClickListener(new View.OnLongClickListener() {
-			@Override
-			public boolean onLongClick(View v) { 
-		    
-			 //tasto non utilizzato
+			public boolean onLongClick(View v) {
 				
-			//Log.i(TAG,"prova "+navigationLevel);
-			int k=-1;
-			 while ((k<MainActivity.this.testate.getTestate().size()-1)) {
-	    		 k++;
-	    		 Log.i(TAG,"prova "+ MainActivity.this.testate.getTestate().get(k).getNome());
-	    		 }
-			
-		    return true;
+				GiornaleBookmark newGiornaleBookmark= new  GiornaleBookmark(MainActivity.this.testate.getTestate().get(iTestata).getId(),
+			    		                                                    MainActivity.this.testate.getTestate().get(iTestata).getNome(),
+			    		                                                    MainActivity.this.testate.getTestate().get(iTestata).getEdizione(),
+			    		                                                    MainActivity.this.testate.getTestate().get(iTestata).getLingua(),
+			    		                                                    new ArrayList<Sezione>(),
+			    		                                                    MainActivity.this.testate.getTestate().get(iTestata).getResource() );
+			    
+				switch (navigationLevel) {
+				
+				
+				case TESTATE:
+					if (iTestata >= 0) {					
+						if (!modeBookmarks)  {  
+							if (bookmark.addBookmarkGiornale(newGiornaleBookmark))
+							MainActivity.this.textToSpeech.speak(getResources().getString(R.string.insert_newspaper_s_bookmark), TextToSpeech.QUEUE_FLUSH, null);
+							else MainActivity.this.textToSpeech.speak(getResources().getString(R.string.insert_newspaper_s_bookmark_error), TextToSpeech.QUEUE_FLUSH, null);
+						}
+							
+						else  {
+							bookmark.deleteGiornale(MainActivity.this.testate.getTestate().get(iTestata).getId());
+							MainActivity.this.textToSpeech.speak(getResources().getString(R.string.delete_newspaper_s_bookmark), TextToSpeech.QUEUE_FLUSH, null);
+							updateHeaders(bookmark);
+							}
+							
+						fileBookmarks.writeBookmark(bookmarksPath, bookmark); 
+					} 
+					break;
+				case SEZIONI:
+					if (iSezione >= 0) {					 
+						if (!modeBookmarks)  {
+						Sezione newSezioneBookmark= new Sezione(MainActivity.this.giornale.getSezioni().get(iSezione).getId(),
+																MainActivity.this.giornale.getSezioni().get(iSezione).getNome(),
+																new ArrayList<Articolo>());
+						if(bookmark.addBookmarkSezione(newGiornaleBookmark, newSezioneBookmark))    	
+						MainActivity.this.textToSpeech.speak(getResources().getString(R.string.insert_section_s_bookmark), TextToSpeech.QUEUE_FLUSH, null);
+						else MainActivity.this.textToSpeech.speak(getResources().getString(R.string.insert_section_s_bookmark_error), TextToSpeech.QUEUE_FLUSH, null);
+						}
+						else  {
+							//la rimozione è concessa solo per le sezioni salvate
+							if(bookmark.existsSezioneBookmark(newGiornaleBookmark.getId(),MainActivity.this.giornale.getSezioni().get(iSezione).getId())){
+							
+							bookmark.deleteSezione(newGiornaleBookmark.getId(),MainActivity.this.giornale.getSezioni().get(iSezione).getId());
+							MainActivity.this.textToSpeech.speak(getResources().getString(R.string.delete_section_s_bookmark), TextToSpeech.QUEUE_FLUSH, null);
+							updateSections(bookmark, newGiornaleBookmark.getId()) ;
+							}
+						}
+						fileBookmarks.writeBookmark(bookmarksPath, bookmark);
+						}
+					break;
+				case ARTICOLI:
+					if (iArticolo >= 0) { 
+						 ArticoloBookmark newArticolo = null;
+						
+						if (!modeBookmarks)  {
+						 newArticolo = new ArticoloBookmark(MainActivity.this.giornale.getSezioni().get(iSezione).getArticoli().get(iArticolo).getTitolo(),
+															   MainActivity.this.giornale.getSezioni().get(iSezione).getArticoli().get(iArticolo).getTesto(),
+															   MainActivity.this.giornale.getEdizione()); // da verificare il formato data
+						 try {
+							 //aggiungo le sezioni perchè nell'aggiunta dell'articolo potrebbe servire
+							 
+							 
+							 for (int k=0;k < MainActivity.this.giornale.getSezioni().size();k++)
+							 {
+							 Sezione newSezioneBookmark= new Sezione(MainActivity.this.giornale.getSezioni().get(k).getId(),
+																	MainActivity.this.giornale.getSezioni().get(k).getNome(),
+																	new ArrayList<Articolo>());
+							 newGiornaleBookmark.getSezioni().add(newSezioneBookmark);
+							 }	
+							
+							if(bookmark.addBookmarkArticolo(newGiornaleBookmark,newArticolo))
+							MainActivity.this.textToSpeech.speak(getResources().getString(R.string.insert_article_s_bookmark), TextToSpeech.QUEUE_FLUSH, null);
+							else MainActivity.this.textToSpeech.speak(getResources().getString(R.string.insert_article_s_bookmark_error), TextToSpeech.QUEUE_FLUSH, null);} 
+						 catch (ParseException e) {	e.printStackTrace(); }
+						 
+					  }	
+						else {//la rimozione è concessa solo per gli articoli salvati
+							
+							String idSezionePreferiti= bookmark.calculateHash("bookmark "+newGiornaleBookmark.getResource());
+							//if( MainActivity.this.giornale.getSezioni().get(iSezione).getId().equals(idSezionePreferiti)){
+							bookmark.deleteArticolo(MainActivity.this.giornale.getId(),MainActivity.this.giornale.getSezioni().get(iSezione).getArticoli().get(iArticolo).getTitolo()); 
+							MainActivity.this.textToSpeech.speak(getResources().getString(R.string.delete_article_s_bookmark), TextToSpeech.QUEUE_FLUSH, null);
+							updateArticles(bookmark,MainActivity.this.giornale.getId(),MainActivity.this.giornale.getSezioni().get(iSezione).getId());
+							//}
+						}
+						fileBookmarks.writeBookmark(bookmarksPath, bookmark);		
+						}
+						
+					break;
+				  	
+				default:
+					break;
+			}
+	    	
+				
+				return true;
 			}
 		});
+        
         
         this.upperRightButton.setOnLongClickListener(new View.OnLongClickListener() {
 			
@@ -251,6 +378,8 @@ public class MainActivity extends Activity implements IMainActivity, OnInitListe
         PowerManager pm = (PowerManager)getSystemService(Context.POWER_SERVICE);
 		this.wakeLock = pm.newWakeLock(PowerManager.SCREEN_DIM_WAKE_LOCK, TAG);
         
+		
+		
         this.textToSpeech = new TextToSpeech(this, this);
         textToSpeech.setOnUtteranceProgressListener(utteranceProgressListener);
         
@@ -718,6 +847,14 @@ public class MainActivity extends Activity implements IMainActivity, OnInitListe
 		return testata.getUrl();
 	}
 	
+	//Morisco
+	public String getResourceTestata() {
+		Testata testata = (Testata)this.testate.getTestate().get(iTestata);
+		return testata.getResource();
+		}
+	
+
+	//Morisco
 	@Override
 	public void notifyGiornaleReceived(Giornale giornale) {
 		if (Configuration.DEBUGGABLE) Log.d(TAG, "notifyGiornaleReceived()");
@@ -726,16 +863,20 @@ public class MainActivity extends Activity implements IMainActivity, OnInitListe
 		this.navigationLevel = NavigationLevel.SEZIONI;
 		this.iSezione = -1;
 		this.iArticolo = -1;
-		this.maxSezioni = giornale.getSezioni().size();
+		
 		
 		StringBuilder sb = new StringBuilder();
 		sb.append(giornale.getTestata());
 		sb.append(getString(R.string.nav_read_success));
 		if (Configuration.DEBUGGABLE) Log.d(TAG, "sb: " + sb);
-		
-		this.giornale = giornale;
-		this.textToSpeech.speak(sb.toString(), TextToSpeech.QUEUE_FLUSH, params);
+    
+		if (!modeBookmarks)    
+			this.giornale = giornale;
+        else  this.giornale=readBookmarks.createGiornaleBookmark(giornale);
+     	this.maxSezioni = this.giornale.getSezioni().size();		
+		this.textToSpeech.speak(sb.toString(), TextToSpeech.QUEUE_FLUSH, null);
 	}
+	
 	
 	private void resetNavigation() {
 		// Inizializza il livello di navigazione.
@@ -753,6 +894,74 @@ public class MainActivity extends Activity implements IMainActivity, OnInitListe
     	this.lowerEndArticoli = true;
     	this.upperEndArticoli = false;
 	}
+	
+	
+private void closeBookmarks() {   
+		
+		changeHeaders(oldTestate);
+	    modeBookmarks=false;
+		this.textToSpeech.speak(getString(R.string.normal_mode), TextToSpeech.QUEUE_FLUSH, null);
+		if (Configuration.DEBUGGABLE) Log.d(TAG, "Modalità normale.");
+		
+	}
+	private void openBookmarks() throws Exception {   
+		
+		readBookmarks=(Bookmark) fileBookmarks.readBookmark(bookmarksPath);
+		if (readBookmarks.getGiornali().size() > 0 ){  
+			oldTestate=testate;
+	     	testateBookmarks=readBookmarks.newHeadersIndex();
+	     	changeHeaders(testateBookmarks);
+	     	modeBookmarks=true;
+			this.textToSpeech.speak(getString(R.string.bookmarks_mode), TextToSpeech.QUEUE_FLUSH, null);
+		} 
+		else this.textToSpeech.speak(getString(R.string.bookmarks_error), TextToSpeech.QUEUE_FLUSH, null);
+		
+	if (Configuration.DEBUGGABLE) Log.d(TAG, "Modalità preferiti.");
+	}
+
+
+	public void changeHeaders(Testate testate) {
+	    this.reloadHeaders = false;
+		this.testate = testate;
+		this.maxTestate = testate.getTestate().size();
+		this.lowerEndTestate = true;
+		this.upperEndTestate = false;
+		resetNavigation();
+	}
+	
+	public void updateHeaders(Bookmark bookmark) {
+
+		if((bookmark.getGiornali().size())>0)
+			changeHeaders(bookmark.newHeadersIndex());
+		else {
+			  closeBookmarks();
+		}
+	}
+
+	public void updateSections(Bookmark bookmark, String idGiornale) {
+
+		if (!bookmark.existsGiornaleBookmark(idGiornale)) { //il giornale è stato rimosso insieme alla sezione
+			 updateHeaders(bookmark);
+		}
+		else if (bookmark.getGiornali().get(bookmark.posGiornaleBookmark(idGiornale)).getSezioni().size()>0) {
+			this.giornale=bookmark.getGiornali().get(bookmark.posGiornaleBookmark(idGiornale));
+			this.iSezione--;
+		}
+	}
+
+public void updateArticles(Bookmark bookmark, String idGiornale, String idSezione) {
+	
+	if (!bookmark.existsGiornaleBookmark(idGiornale)) { //il giornale è stato rimosso insieme alla sezione
+		 updateHeaders(bookmark);
+	}	 else if (!bookmark.existsSezioneBookmark(idGiornale, idSezione)) { //la sezione è stato rimossa insieme all'articolo
+		 updateSections(bookmark, idGiornale);
+		 }
+		 else{
+			 MainActivity.this.giornale=bookmark.getGiornali().get(bookmark.posGiornaleBookmark(idGiornale)); 
+			 this.iArticolo--;
+		 }
+}
+	
 	
 	private StrilloneButton getUpperLeftButton() {
 		return (StrilloneButton)findViewById(R.id.upperLeftButton);
@@ -993,7 +1202,7 @@ public class MainActivity extends Activity implements IMainActivity, OnInitListe
 								else if (e2.getX() - e1.getX() > SWIPE_MIN_DISTANCE && Math.abs(velocityX) > SWIPE_THRESHOLD_VELOCITY) {
 									createListener();  result=true; }} 
 						else {  if(e1.getY() - e2.getY() > SWIPE_MIN_DISTANCE && Math.abs(velocityY) > SWIPE_THRESHOLD_VELOCITY) {
-								/*createListener();*/ result=true;}
+							 result=true;}
 								else if (e2.getY() - e1.getY() > SWIPE_MIN_DISTANCE && Math.abs(velocityY) > SWIPE_THRESHOLD_VELOCITY) {
 								/*createListener();*/ result=true; }}
 		return result;

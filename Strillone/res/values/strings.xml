@@ -56,5 +56,17 @@
 	<string name="close_exit">esci</string>
 	<string name="startRecognizer">Riconoscimento vocale avviato.</string>
 	
+	<string name="bookmarks_mode">Sei entrato nella modalità preferiti.</string>
+	<string name="normal_mode">Sei uscito dalla modalità preferiti.</string>
+	<string name="bookmarks_error">Non ci sono giornali preferiti.</string>
+	<string name="insert_newspaper_s_bookmark">Giornale aggiunto ai preferiti.</string>
+	<string name="insert_section_s_bookmark">Sezione aggiunta ai preferiti.</string>
+	<string name="insert_article_s_bookmark">Articolo aggiunto ai preferiti.</string>
+	<string name="insert_newspaper_s_bookmark_error">Giornale già presente nei preferiti.</string>
+	<string name="insert_section_s_bookmark_error">Sezione già presente nei preferiti.</string>
+	<string name="insert_article_s_bookmark_error">Articolo già presente nei preferiti.</string>
+	<string name="delete_newspaper_s_bookmark">Giornale rimosso dai preferiti.</string>
+	<string name="delete_section_s_bookmark">Sezione rimosso dai preferiti.</string>
+	<string name="delete_article_s_bookmark">Articolo rimosso dai preferiti.</string>
 	
 </resources>
