@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="org.informaticisenzafrontiere.strillone"
-    android:versionCode="0103"
-    android:versionName="1.3"
+    package="org.informaticisenzafrontiere.unileo4light"
+    android:versionCode="0100"
+    android:versionName="1.0"
     android:installLocation="auto">
     
     <uses-permission android:name="android.permission.INTERNET" />
