@@ -15,4 +15,7 @@ public interface IMainActivity {
 	
 	public void notifyErrorDowloadingHeaders(String message);
 
+	public String getResourceTestata();//Morisco
+
+	
 }

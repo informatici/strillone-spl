@@ -1,9 +1,13 @@
 package org.informaticisenzafrontiere.strillone.xml;
 
+import java.util.Calendar;
+
 import org.simpleframework.xml.Element;
+import org.simpleframework.xml.Order;
 import org.simpleframework.xml.Root;
 
 @Root(name="articolo")
+@Order(elements={"titolo","testo"})
 public class Articolo {
 	
 	@Element(name="titolo", data=true)
@@ -13,6 +17,13 @@ public class Articolo {
 	private String testo;
 
 	public Articolo() { }
+	
+	public Articolo(String titolo, String testo ) {
+		
+		setTitolo(titolo);
+		setTesto(testo);
+		
+	} // marta
 
 	public String getTitolo() {
 		return titolo;
@@ -31,3 +42,10 @@ public class Articolo {
 	}
 	
 }
+
+
+
+
+
+	
+

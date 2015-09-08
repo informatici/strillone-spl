@@ -29,17 +29,19 @@ public class TestateRequestHandler extends RequestHandler {
 
 	@Override
 	protected String getURL() {
-		return "http://www.walks.to/strillone/feeds/testate.php";
+		//return Configuration.URL +"/newspapers";
+		return "http://192.168.43.100/strillonews/index.php/newspapers";
+	
+		//return "http://www.walks.to/strillone/feeds/testate.php";
 	}
-
 	@Override
 	protected Map<String, String> getParameters() {
 		return new HashMap<String, String>();
 	}
 	
 	public void onResponseReceived(String response) {
-		if ("".equals(response)) {
-			this.mainPresenter.notifyErrorDowloadingHeaders(App.getInstance().getString(R.string.connecting_error));
+		if ("".equals(response)) {	
+		this.mainPresenter.notifyErrorDowloadingHeaders(App.getInstance().getString(R.string.connecting_error));
 		} else {
 			try {
 				XMLHandler xmlHandler = new TestateXMLHandler();
@@ -51,10 +53,10 @@ public class TestateRequestHandler extends RequestHandler {
 				for (Testata testata : lTestate) {
 					if (lingua.equals(testata.getLingua())) {
 						if (Configuration.BETA) {
-							// Aggiungi incondizionatamente qualsiasi testata.
+							// Add unconditionally any newspapers.
 							lTestateNew.add(testata);
 						} else {
-							// Verifica che non sia una testata "beta".
+							// Check that it is not a newspaper "beta".
 							if (!testata.isBeta()) {
 								lTestateNew.add(testata);
 							}
@@ -66,8 +68,8 @@ public class TestateRequestHandler extends RequestHandler {
 				
 				this.mainPresenter.notifyHeadersReceived(testate);
 			} catch (Exception e) {
-				// this.mainPresenter.notifyCommunicationError(App.getInstance().getString(R.string.connecting_error));
-				this.mainPresenter.notifyErrorDowloadingHeaders(App.getInstance().getString(R.string.connecting_error));
+				 this.mainPresenter.notifyCommunicationError(App.getInstance().getString(R.string.connecting_error));
+				 this.mainPresenter.notifyErrorDowloadingHeaders(App.getInstance().getString(R.string.connecting_error));
 			}
 		}
 	}
