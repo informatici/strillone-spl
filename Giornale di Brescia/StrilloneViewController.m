@@ -13,7 +13,7 @@
 
 #define IS_IOS6_AND_UP ([[UIDevice currentDevice].systemVersion floatValue] >= 6.0)
 #define IS_IOS7_AND_UP ([[UIDevice currentDevice].systemVersion floatValue] >= 7.0)
-#define MY_SPEECH_RATE  0.28
+#define MY_SPEECH_RATE  0.5
 #define MY_SPEECH_MPX  1.0
 
 
@@ -141,7 +141,19 @@ AVSpeechSynthesizer *textToSpeech;
     NSString *language = [AVSpeechSynthesisVoice currentLanguageCode];
     if (language==nil) language = @"it-IT";
     AVSpeechUtterance *speak = [AVSpeechUtterance speechUtteranceWithString:text];
-    [speak setRate:MY_SPEECH_RATE];
+    
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    [defaults synchronize];
+    float velocita = [defaults integerForKey:@"velocita"];
+    
+    if (!velocita || velocita == 0) {
+        [speak setRate:MY_SPEECH_RATE];
+    } else {
+        velocita = velocita / 100;
+        [speak setRate:velocita];
+    }
+    
+    
     [speak setPitchMultiplier:MY_SPEECH_MPX];
     [speak setVoice:[AVSpeechSynthesisVoice voiceWithLanguage:language]];
     [textToSpeech speakUtterance:speak];

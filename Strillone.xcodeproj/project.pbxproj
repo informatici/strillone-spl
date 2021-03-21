@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA13C80D2607BCEE00C01DBE /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FA13C80C2607BCEE00C01DBE /* Settings.bundle */; };
 		FA18A78D1764DD090036715A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA18A78C1764DD090036715A /* Default-568h@2x.png */; };
 		FA22B5B318A59A1900AFED7A /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FA22B5B018A59A1900AFED7A /* SVProgressHUD.bundle */; };
 		FA22B5B418A59A1900AFED7A /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = FA22B5B218A59A1900AFED7A /* SVProgressHUD.m */; };
@@ -37,7 +38,6 @@
 		FAAD42351711D13500609F36 /* arrow_up@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAAD42251711D13500609F36 /* arrow_up@2x.png */; };
 		FAAD423F1711D19100609F36 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAAD423E1711D19100609F36 /* SystemConfiguration.framework */; };
 		FAAD42411711DA6200609F36 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAAD42401711DA6200609F36 /* Icon@2x.png */; };
-		FAAD42461712064B00609F36 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FAAD42451712064B00609F36 /* Settings.bundle */; };
 		FAB9E9F217476420002C0382 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FAB9E9F117476420002C0382 /* Icon.png */; };
 		FAB9E9F5174764F7002C0382 /* marchi@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAB9E9F4174764F7002C0382 /* marchi@2x.png */; };
 		FACFBDBE18A6865700136805 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = FACFBDAB18A6865700136805 /* SBJsonParser.m */; };
@@ -55,6 +55,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FA13C80C2607BCEE00C01DBE /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		FA18A78C1764DD090036715A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
 		FA22B5AF18A59A1900AFED7A /* SVProgressHUD-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-Prefix.pch"; sourceTree = "<group>"; };
 		FA22B5B018A59A1900AFED7A /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
@@ -98,7 +99,6 @@
 		FAAD42251711D13500609F36 /* arrow_up@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow_up@2x.png"; sourceTree = "<group>"; };
 		FAAD423E1711D19100609F36 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		FAAD42401711DA6200609F36 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
-		FAAD42451712064B00609F36 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		FAB9E9F117476420002C0382 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		FAB9E9F4174764F7002C0382 /* marchi@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marchi@2x.png"; sourceTree = "<group>"; };
 		FACFBDA918A6865700136805 /* SBJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJson.h; sourceTree = "<group>"; };
@@ -206,6 +206,7 @@
 				FAAD42141711D07800609F36 /* CustomHttp.m */,
 				FAAD42151711D07800609F36 /* Reachability.h */,
 				FAAD42161711D07800609F36 /* Reachability.m */,
+				FA13C80C2607BCEE00C01DBE /* Settings.bundle */,
 				FAAD41F61711D05400609F36 /* Supporting Files */,
 				FA2F45BB1723FD5800E53EEE /* StrilloneViewController.h */,
 				FA2F45BC1723FD5900E53EEE /* StrilloneViewController.m */,
@@ -227,7 +228,6 @@
 				FAAD42011711D05400609F36 /* Default.png */,
 				FAAD42031711D05400609F36 /* Default@2x.png */,
 				FA18A78C1764DD090036715A /* Default-568h@2x.png */,
-				FAAD42451712064B00609F36 /* Settings.bundle */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -308,6 +308,7 @@
 				TargetAttributes = {
 					FAAD41EB1711D05400609F36 = {
 						DevelopmentTeam = R25VK8MM2Y;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -316,6 +317,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				it,
 			);
@@ -346,7 +348,7 @@
 				FAAD42341711D13500609F36 /* arrow_up.png in Resources */,
 				FAAD42351711D13500609F36 /* arrow_up@2x.png in Resources */,
 				FAAD42411711DA6200609F36 /* Icon@2x.png in Resources */,
-				FAAD42461712064B00609F36 /* Settings.bundle in Resources */,
+				FA13C80D2607BCEE00C01DBE /* Settings.bundle in Resources */,
 				FA2F45BF1723FD5900E53EEE /* StrilloneViewController.xib in Resources */,
 				FAB9E9F217476420002C0382 /* Icon.png in Resources */,
 				FA22B5B318A59A1900AFED7A /* SVProgressHUD.bundle in Resources */,
@@ -474,8 +476,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 23;
+				DEVELOPMENT_TEAM = R25VK8MM2Y;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Giornale di Brescia/Strillone-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
@@ -484,10 +489,12 @@
 					"$(SDKROOT)/usr/include/libxml2",
 				);
 				INFOPLIST_FILE = "Giornale di Brescia/Strillone-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MARKETING_VERSION = 2.3;
 				PRODUCT_NAME = Strillone;
 				PROVISIONING_PROFILE = "FED1437F-4823-46C2-8855-8F22A344F6EB";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "FED1437F-4823-46C2-8855-8F22A344F6EB";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -496,8 +503,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 23;
+				DEVELOPMENT_TEAM = R25VK8MM2Y;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Giornale di Brescia/Strillone-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
@@ -506,10 +516,12 @@
 					"$(SDKROOT)/usr/include/libxml2",
 				);
 				INFOPLIST_FILE = "Giornale di Brescia/Strillone-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MARKETING_VERSION = 2.3;
 				PRODUCT_NAME = Strillone;
 				PROVISIONING_PROFILE = "FED1437F-4823-46C2-8855-8F22A344F6EB";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "FED1437F-4823-46C2-8855-8F22A344F6EB";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
